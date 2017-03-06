@@ -28,12 +28,12 @@ getValue :: Square -> Integer -> Integer -> Integer
 The function getValue inputs a square, an x-coordinate and a y-coordinate, and outputs the corresponding value in the square.
 
 
-![test]({{ site.url }}/img/msquare.jpg)
+![test][logo]
 
 
-[logo]: {{ site.url }}/img/msquare.jpg
+[logo]: {{ site.url }}/assets/msquare.jpg
 
 
-[logo2]: {{ site.url }}/img/magic.png
+[logo2]: {{ site.url }}/assets/magic.png
 
 If you are feeling confident, here's a trickier extension exercise: given a set of numbers from 1 to 9, can you write a program which solves a magic square? How about an arbitrary set of nine numbers?
