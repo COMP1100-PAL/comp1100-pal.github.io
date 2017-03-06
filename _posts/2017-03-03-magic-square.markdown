@@ -31,7 +31,7 @@ The function getValue inputs a square, an x-coordinate and a y-coordinate, and o
 ![test][logo]
 
 
-[logo]: {{ site.baseurl }}/img/msquare.jpg
+[logo]: {{site.url}}{{ site.baseurl }}/img/msquare.jpg
 
 
 [logo2]: {{ site.baseurl }}/img/magic.png
