@@ -2,7 +2,7 @@
 layout: post
 title:  "Magic Square"
 date:   2017-03-03 18:01:41 +1100
-categories: jekyll update
+categories: worksheets wk3 decomposition
 ---
 # Breaking Down the Problem
 
