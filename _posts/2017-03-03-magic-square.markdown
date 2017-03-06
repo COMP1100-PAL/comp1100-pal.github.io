@@ -28,7 +28,7 @@ getValue :: Square -> Integer -> Integer -> Integer
 The function getValue inputs a square, an x-coordinate and a y-coordinate, and outputs the corresponding value in the square.
 
 
-![test][logo]
+![test]({{ site.url }}/img/msquare.jpg)
 
 
 [logo]: {{ site.url }}/img/msquare.jpg
