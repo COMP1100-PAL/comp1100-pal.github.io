@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Need to know what PAL is about, where and when we are running sessions, learn about your mentorrs,
   or just want to grab some worksheets; then this is the place to be.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  comp1100-pal
