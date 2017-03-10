@@ -19,6 +19,7 @@ Lambda Calculus is a Turing complete system, which essentially means that any co
 concept?
 5. Is there a process in this concept and if so, up to which point do I understand?
 (Note that because of the range of topics, these topics a pretty general and will not apply in all situations)
+
 
 # 2 Free-Variables
 For each of the following lambda expressions, name the free and bound variables. If someone doesn’t understand why one is free and one is bound, explain it to them.
@@ -45,6 +46,8 @@ For each of the following lambda expressions, name the free and bound variables.
 * λx.λy.x {x → y}
 * λx.λy.x {x → z}
 * λx.λx.x {x → y}
+
+
 # 4 Substitution
 Using the standard notation, simplify these expressions using substitution.If the substitution isn’t possible, explain why.
 * x[x := 1]
