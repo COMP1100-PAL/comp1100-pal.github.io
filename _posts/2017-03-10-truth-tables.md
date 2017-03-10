@@ -9,7 +9,7 @@ Truth tables are a convenient way of describing an operation between Boolean val
 | F | F | F |
 
   P  | Q | P _AND_ Q
-  ------ | ------ | ------
+  ------ | ------ | :------:
   T  | T | F
   T  | F | F 
   F  | T | F 
