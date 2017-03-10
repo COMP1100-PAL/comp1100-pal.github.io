@@ -8,6 +8,11 @@ Truth tables are a convenient way of describing an operation between Boolean val
 | F | T | F |
 | F | F | F |
 
+  First Header  | Second Header
+  ------------- | -------------
+  Content Cell  | Content Cell
+  Content Cell  | Content Cell
+
 ### Question 1
 Your mission is to write the function 
 ``and :: Bool -> Bool -> Bool``.
