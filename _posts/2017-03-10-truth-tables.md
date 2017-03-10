@@ -1,12 +1,6 @@
 # What is Truth?
 Who am I? What is Tony talking about? These questions have plagued philosophers for centuries. In this worksheet we will help answer the first of these questions.
 Truth tables are a convenient way of describing an operation between Boolean values. For example, consider the truth table for the _AND_ operator:
-| P | Q | P _AND_ Q|
-|---|---|:---:|
-| T | T | T |
-| T | F | F |
-| F | T | F |
-| F | F | F |
 
   P  | Q | P _AND_ Q
   ------ | ------ | :------:
