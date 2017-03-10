@@ -67,7 +67,7 @@ Beta reduction is the use of a lambda application to convert a lambda expression
 Normal form involves using beta reduction to rewrite them, when no more reduction can be performed, it is in normal form. Not all lambdas have Normal forms, as not all lambdas have a sequence of reductions that will lead to one AND some sequences won’t even lead to a Normal form. Try to rewrite these following lambdas to get them to normal form.
 
 	λx.λy.xxy
-	λx.λy.xxy  6
+	λx.λy.xxy 6
 	λx.λy.y
 	λx.λy.y 8 5
 	(λx.xx) (λy.yy)
@@ -76,7 +76,7 @@ Normal form involves using beta reduction to rewrite them, when no more reductio
 ## Church Numerals and true/false
 Church numerals are defined as in the table below. There are in fact many ways to express numerals using lambda calculus, however church numerals are by far the canonical example of numeric expression in lambda calculus.
  
- ![CHURCH BABY YEAHHHHHHHHHH BOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII](https://github.com/COMP1100-PAL/comp1100-pal.github.io/tree/master/img/church.png "Church numerals baby")
+ ![alt text](https://github.com/COMP1100-PAL/comp1100-pal.github.io/raw/master/img/church.png "Church numerals baby")
 
 Express in using a lambda expression, each of the following numbers.
 
