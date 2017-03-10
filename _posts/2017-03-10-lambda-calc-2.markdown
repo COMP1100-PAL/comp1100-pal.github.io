@@ -76,7 +76,7 @@ Normal form involves using beta reduction to rewrite them, when no more reductio
 ## Church Numerals and true/false
 Church numerals are defined as in the table below. There are in fact many ways to express numerals using lambda calculus, however church numerals are by far the canonical example of numeric expression in lambda calculus.
  
- ![alt text](https://github.com/COMP1100-PAL/comp1100-pal.github.io/raw/master/img/church.png "Church numerals baby")
+ ![CHURCH NUMERALS BABY YEAHHHHHHH BOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII](https://github.com/COMP1100-PAL/comp1100-pal.github.io/raw/master/img/church.png "Church numerals fam")
 
 Express in using a lambda expression, each of the following numbers.
 
