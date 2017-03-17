@@ -4,10 +4,10 @@ Truth tables are a convenient way of describing an operation between Boolean val
 
   P  | Q | P _AND_ Q
   ------ | ------ | :------:
-  T  | T | F
+  T  | T | T
   T  | F | F 
   F  | T | F 
-  F  | F | T
+  F  | F | F
   
   
 ### Question 1
