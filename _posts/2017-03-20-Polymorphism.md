@@ -1,6 +1,9 @@
-#  
-
-# Reaching Pure Abstraction with Polymorphism
+---
+layout: post
+title:  "Reaching Pure Abstraction with Polymorphism"
+date:   2017-03-20 11:25:29 +1100
+categories: worksheets polymorphism wk5
+---
 ### Prelude
 Tony puts his hand on your shoulder.
 "You're doing well, kiddo, but we need to make this garbage collecting more effective. We need to make use of... *__a b s t r a c t i o n__*. Come, I will show you something I've been working on."
@@ -21,7 +24,7 @@ Note, however, the Haskell is *parametric*- a polymorphic thing will behave the 
 *Total functions?!*
 *Infinite loops?!*
 *#FEELING TOTALLY LOOPED IN THIS INFINITE FUNCTION*
-So Tony used the example: 
+So Tony used the example:
 ```haskell
 riddle4 :: a -> b
 ```
@@ -40,11 +43,3 @@ Such a function is called a __partial function__- one that never evaluates, or o
 3. Can you write a polymorphic definition of the list type? (note that this also has recursion, *HOW SNAZZY!*)
 
 4. Can you write a function which takes a value x and a integer y, and returns a list of y number of x?
-
-
-
-
-
-
-
-
