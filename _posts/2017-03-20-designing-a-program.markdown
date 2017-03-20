@@ -5,12 +5,12 @@ date:   2017-03-20 11:25:29 +1100
 categories: worksheets design wk5
 ---
 
-# Types of Design
+## Types of Design
 In lectures we expressed two approaches for designing a program. The top down approach, assumes we have implemented smaller functions, in order to make a larger function. We then go a try to complete the smaller functions. The bottom up approach tries to solve a smaller problem and then extend this solution to solve larger and larger problems.
 
-# Practice
+## Practice
 
-## Conway's Game Of life
+# Conway's Game Of life
 **Don't worry about implementing the graphics for this problem.**
 Game of Life is a Cellular Automata, which follows a fairly simple set of rules as shown on wikipedia.
 
