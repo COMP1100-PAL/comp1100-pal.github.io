@@ -7,45 +7,64 @@ categories: worksheets studyevent
 
 
 # Higher-order functions
-![TINA DOESN'T HAVE ACCESS](https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/17425080_10211302933462779_2110686564848249221_n.jpg?oh=8f42d6d56424a7eab982980dab744a42&oe=5962C4C3 "Tina now has access")
+Jay and Tina want to become more environmentally sustainable. They has employed the use of higher-order functions to help them become green warriors of the Earth. They wants to go as far as to put the local garbage collector out of a job (or at least send him a message).
+
+![TINA DOESN'T HAVE ACCESS](https://images-na.ssl-images-amazon.com/images/I/51bkvYYv5oL._SX331_BO1,204,203,200_.jpg "Tina now has access")
 
 ## Type signatures warm up
-What do the following type signatures mean?
+These 7 R's will help Jay and Tina towards their quest to reduce their carbon footprints, but first they need to know what they mean.
 
-- 7 years
+What do the following type signatures mean? Debate in your groups.
 
 ```haskell
-1. refuse
-2. reduce
-3. reuse
-4. repair
-5. re-gift
-6. recycle
-7. recover
 
 refuse :: (a -> Bool) -> [a] -> [a]
 
 reduce :: (a -> b -> b) -> b -> [a] -> b
 
-reuse ::
+reuse :: (a -> a) -> a -> [a]
 
 repair :: (a -> b -> c) -> [a] -> [b] -> [c]
 
-re-gift :: (a -> b) -> a -> b  
+regift :: (a -> b) -> a -> b  
 
-recycle :: 
+recycle :: (b -> Maybe (a, b)) -> b -> [a]
 
 recover :: (a -> b) -> (b -> c) -> (a -> c)
-
 
 ```
  
 ## What in Tony's name was mapList?
+`mapList` is a higher order function that takes a function as input, and a list as input, and returns a new list where each element of the list has that function applied to it.
 
 ```haskell
 mapList :: (a -> b) -> List a -> List b
 mapList _ Empty = Empty
 mapList f (Entry c cs) = Entry (f c) (mapList f cs)
 ```
-* Have a go at defining mapList not with a split definition, but with pattern matching and using the inbuilt Haskell list.
+* Have a go at defining `map` not with a split definition, but with pattern matching and using the inbuilt Haskell list.
 
+## More interesting higher-order functions
+Jay and Tina only need to contribute small steps towards their goal, can you help them? They are having trouble how to __implement__ some of these _vital_ steps.
+
+`refuse` is a function that takes a predicate and a list and returns a new list where only elements that satisfy the predicate are included in that list.
+
+* Have a go at writing the `refuse` function. The type signature was given above.
+* Why is it useful? What could be a better name for `refuse`?
+
+If you are having trouble thinking what a predicate could be, think about the difference between the types of `>` and `> 3` 
+
+`repair` is a function that takes a function and two lists, uses the function to combine the elements of the lists up to the length of the shortest list.
+
+* Have a go at writing the `repair` function. The type signature was given above.
+* Why is it useful? What could be a better name for `repair`?
+
+`recover` is a function that takes two functions and combines them into a single function.
+
+* Have a go at writing the `recover` function. Type signature was given as usual.
+* Why is it useful? What could be a better name for `recover`?
+
+`reduce` is a function that takes an operator, an accumulator and a list, and returns the value that the list elements were accumulated on depending on the operator.
+
+* Have a go at writing the `reduce` function. Type signature was given as usual.
+* Why is it useful? What could be a better name for `reduce`?
