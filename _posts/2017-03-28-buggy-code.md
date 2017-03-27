@@ -1,4 +1,11 @@
-# Buggy Code
+---
+layout: post
+title:  "Buggy Code"
+date:   2017-03-28 11:25:29 +1100
+categories: worksheets debugging
+---
+
+# Prelude
 _To debug, or not to debug: that is the question:
 wheher 'tis nobler in the code to suffer 
 The types and constructors of outrageous programming,
