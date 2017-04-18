@@ -77,7 +77,7 @@ The tree seen above is an example of a ***Binary Search Tree (BST)***. A binary 
 
 BSTs are extremely helpful in efficiency in the lookup, addition and removal of items due to its binary, rather than linear, nature.
 
-###Lists to trees
+### Lists to trees
 
 Draw up the binary trees that would result from creating a tree out of the following lists:
 (Use the first value as the top of the tree)
@@ -86,7 +86,7 @@ Draw up the binary trees that would result from creating a tree out of the follo
 2. `["Apple", "Oranges", "Banana", "Pineapples", "Peach", "Apricot", "Kiwifruit"]`
 3. [0, 01, 10, 11, 100, 101, 110, 111]
 
-###Trees to lists
+### Trees to lists
 
 We can convert trees to lists by "flattening it. Have a think about how this could be defined using the `Tree` data type given above. Type signature is given below:
 
@@ -94,7 +94,7 @@ We can convert trees to lists by "flattening it. Have a think about how this cou
 treeFlatten:: Tree a -> [a]
 ```
 
-###Challenge question (optional)
+### Challenge question (optional)
 Have a think about how you would write a function to map over a tree, that is, how to define the higher-order function `map` but for the `tree` data type specifically.
 Hint: the type signature is given below:
 
