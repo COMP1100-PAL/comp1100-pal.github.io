@@ -39,7 +39,7 @@ Which do you think happens first - the `map` or the `filter`? Discuss. (Hint: th
 
 Can you figure out a way to output `[6, 8, 10, 12]`?
 
-###Let's have some practice
+### Let's have some practice
 
 1. Write a function that doubles each element in a list of integers
 2. Write a function that returns a list of tuples of two input lists
@@ -47,7 +47,7 @@ Can you figure out a way to output `[6, 8, 10, 12]`?
 
 You're likely to have already written some of these functions, however here we would like you to construct them using list comprehension. (If you get stuck though, or are a bit rusty, feel free to try using higher order/in-built functions first!)
 
-###Extension question (optional)
+### Extension question (optional)
 **What is the result of this expression?**
 ```haskell
 foldl (&) blank ([drawTileAt (x, y) | x <- [-10..10], y <- [-10..10]])
@@ -68,7 +68,8 @@ Trees are a data type used in computer science as an organisational structure (a
 In Haskell, this is defined as follows:
 
 ```haskell
-data Tree a = Null | Node a {left, right, :: Tree a}
+data B_Tree a = Node a (B_Tree a) (B_Tree a) | Empty --Binary tree data type
+data Rose_Tree a = Rose_Node a [Rose_Tree a] -- Rose tree data type, what does it mean?
 ```
 In essence, this defines a tree as either null (containing nothing) or as a node with left and right branches, which lead to either a null (the branch is a dead end!) or another node (the tree is extended) type.
 Subsequently, each node of this tree would recursively also be defined this same way.
