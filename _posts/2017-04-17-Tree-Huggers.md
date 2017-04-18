@@ -19,7 +19,7 @@ There can be one or more conditions, or even no condition!
 
 `[elements with function applied | elements <- list, condition, condition, etc...]`
 
-This '|' in the middle is known as the ***generator***, as it generates the elements that we want the function applied to. Generators need to come before the conditions, as the element(s) is/are **out of scope** otherwise.
+This '|' in the middle is known as the **generator**, as it generates the elements that we want the function applied to. Generators need to come before the conditions, as the element(s) is/are **out of scope** otherwise.
 
 ```haskell
 [ x + 2 | x <- [1..10] , isEven x]
@@ -101,4 +101,4 @@ Hint: the type signature is given below:
 
 ```haskell
 mapTree :: (a -> b) -> Tree a -> Tree b
-
+```
