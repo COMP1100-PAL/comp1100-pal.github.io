@@ -63,7 +63,7 @@ What it looks like:
 
 ![hi](https://www.nczonline.net/images/wp-content/uploads/2009/06/500px-Binary_search_tree.svg_-300x250.png)
 
-Trees are a data type used in computer science as an organisational structure (and they're something you'll be seeing a lot of in your 2nd assignment!).
+Trees are a data type used in computer science as an organisational structure (and they're something you'll be seeing a lot of in your 2nd assignment!). However, trees in computer science grow downwards!
 
 In Haskell, this is defined as follows:
 
@@ -73,7 +73,26 @@ data Tree a = Null | Node a {left, right, :: Tree a}
 In essence, this defines a tree as either null (containing nothing) or as a node with left and right branches, which lead to either a null (the branch is a dead end!) or another node (the tree is extended) type.
 Subsequently, each node of this tree would recursively also be defined this same way.
 
-The tree seen above is an example of a binary search tree (BST). BSTs are extremely helpful in 
+The tree seen above is an example of a ***Binary Search Tree (BST)***. A binary search tree has its elements ordered from least to greatest, left to right. Each point in the tree is known as a ***node*** containing a value , where the value in each node must be greater than or equal to any key stored in the left sub-tree, and less than or equal to any key stored in the right sub-tree. This ordering can be numerical, alphabetical, etc.
+
+BSTs are extremely helpful in efficiency in the lookup, addition and removal of items due to its binary, rather than linear, nature.
+
+###Lists to trees
+
+Draw up the binary trees that would result from creating a tree out of the following lists:
+(Use the first value as the top of the tree)
+
+1. `[2, 3, 56, 3, 6, 2, 1, 67]`
+2. `["Apple", "Oranges", "Banana", "Pineapples", "Peach", "Apricot", "Kiwifruit"]`
+3. [0, 01, 10, 11, 100, 101, 110, 111]
+
+###Trees to lists
+
+We can convert trees to lists by "flattening it. Have a think about how this could be defined using the `Tree` data type given above. Type signature is given below:
+
+```haskell
+treeFlatten:: Tree a -> [a]
+```
 
 ###Challenge question (optional)
 Have a think about how you would write a function to map over a tree, that is, how to define the higher-order function `map` but for the `tree` data type specifically.
