@@ -12,7 +12,7 @@ There are lots of apple trees in your garden, but you're craving pineapple. You 
 
 Write a function ``treemap :: (a -> b) -> Tree a -> Tree b`` that takes in a tree and applies a function to every node in the tree.
 
-##### OCD
+##### Grouping the seeds
 Months have gone by, and you are now collecting seeds from your magnificent garden. Shame the help you've hired in the form of your younger siblings aren't of the highest quality- they've mixed up the seeds from your mimosa and anises! Now you have to manually sort them by hand, or, maybe you could make a machine do it for you...?
 
 Write a function ``group :: String -> [String]`` that groups all the same characters. 
