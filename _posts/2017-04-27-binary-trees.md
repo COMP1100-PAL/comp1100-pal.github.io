@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Two's Complement: Binary Trees"
+date:   2017-04-24 18:01:41 +1100
+categories: worksheets wk8 binary trees tree
+---
+
 Lets get comfortable with binary trees! Recall the binary tree type definition
 
 ```
