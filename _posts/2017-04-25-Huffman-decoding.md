@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2017 Ass2 Compression -Decoding"
+title:  "Assignment 2: Decoding"
 date:   2017-04-25
 categories: worksheets wk8 studyevent
 ---
