@@ -1,3 +1,16 @@
+## Activity
+
+For any of the extensions we want to complete the following tasks, in order to gain a good understanding both the compression concept and how to code it. 
+
+1. Complete an example of encoding a message. You may use the message, "Antony Hosking", as an example.
+2. Complete an example of decoding the same message.
+3. Write down the steps you took for each of these processes.
+4. Write down the type of the data at each step in this process. e.g. starts as a `String`, then become a `[String]`, then becomes etc.
+5. Write out function signatures, for a number of functions which we will use in encoding and decoding.
+6. Identify how these 'helper funcions relate to eachother.
+7. Ask a mentor if you got it all correct.
+8. Go back to your computers and code the functions (this part will be private).
+
 ## RLE
 
 If you're finished huffman encoding then this task is actually considerably easier. Rather than leading you through this one we will simply point you toward three useful function `group`, `length` and `head`. `group` can take a string and returns a list of Strings of the homogenous elements. i.e. `group "aaabbbcccaa" = ["aaa","bbb","ccc","aa"]`. `length` simply finds the length of a list. `head` takes the first element from a list.
@@ -27,4 +40,5 @@ Decoding using MTF is quite easy though. You can use the `!!` function to find t
 3. Write the functions.
 
 ## Prefix Tree
+
 
