@@ -16,10 +16,10 @@ The *codetable* module of your assignment is essentially the same thing but on a
 
 # Encoding
 
-Encoding using the Huffman algorithm is simply matching up values with the values in the codetable to compose a string of bits (in this case, *L* and *R* values). It is essentially the application of the codetable.
+Encoding using the Huffman algorithm is simply matching up values with the values in the codetable, character by character, to compose a string of bits (in this case, *L* and *R* values). It is essentially the application of the codetable.
 
 Using the above tree as an example, the word "BAD" would be composed of the string "1000110" i.e. "RLLLRRL"
 
 How would you generate the word "BEAD" with the tree using only *R*s and *L*s?
 
-Now - write a function so that the values in the codetable are matched up to represent an arbitrary input string into Huffman code.
+This same logic is replicated in your assignment. Now - write your *encode* function so that the values in the codetable are matched up to represent an arbitrary input string with Huffman code.
