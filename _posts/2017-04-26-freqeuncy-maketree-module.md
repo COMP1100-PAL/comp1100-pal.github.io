@@ -1,5 +1,3 @@
-# Histograms, Binary Trees -- Oh my!
-
 Let's get comfortable with the histogram data type:
 
 ```
