@@ -26,6 +26,16 @@ For example the list `[5, 2, 6, 1, 3, 8]` should output:
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? Is there a way to modify your function so that it inserts the elements in a 
 balanced way for a list?
 
+## Delete BST
+
+Write a function to delete an element from a Binary Search Tree at a given index.
+
+```haskell
+Delete :: [a] -> Int -> [a]
+```
+
+Make sure you create a framework for this first – it’s tricky! You will need to find the element at the index, split the lists at this element, delete the element, and re-join the lists. If you get stuck, think about how you deleted an element from a list, and then apply this to trees.
+
 ## Matrix
 Matrices are mathematical objects that resembles a table. A 2x2 matrix has two rows and two columns, and four total entries. For example
 | 4 | 5 |
@@ -58,3 +68,34 @@ The sieve of Eratosthene is a quick way to find the first `n` prime numbers. It 
     - When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n.
 
   Implement the sieve to find the first `n` prime numbers.
+
+## RoseTrees!
+
+RoseTrees follow the same idea as the trees you’ve already used – you may have heard of this already! Only instead of the them being 2 leaves (binary), there can be as many branches as you want. Below is the data definition:
+```
+data Rose_Tree a = Rose_Node a [Rose_Tree a]
+```
+
+Write a function to map a function over all elements of the RoseTree:
+
+```haskell
+mapRoseTree :: (a -> b) -> Rose_Tree a -> Rose_Tree b
+```
+Write a function to count all elements of a RoseTree?
+
+```haskell
+countRose :: Rose_Tree a -> Int
+```
+
+Write a function to add all the elements of a RoseTree (assuming all elements are numbers)?
+
+```haskell
+countRose :: (Num a) => Rose_Tree a -> Int
+```
+
+Write a function to flatten all elements of the Rose_Tree to a list
+
+```haskell
+flattenRose :: Rose_Tree a -> [a]
+```
+*Extension: How would you write this so that all elements are flattened in order?*
