@@ -81,19 +81,19 @@ Write a function to map a function over all elements of the RoseTree:
 ```haskell
 mapRoseTree :: (a -> b) -> Rose_Tree a -> Rose_Tree b
 ```
-Write a function to count all elements of a RoseTree?
+Write a function to count all elements of a RoseTree:
 
 ```haskell
 countRose :: Rose_Tree a -> Int
 ```
 
-Write a function to add all the elements of a RoseTree (assuming all elements are numbers)?
+Write a function to add all the elements of a RoseTree (assuming all elements are numbers):
 
 ```haskell
 countRose :: (Num a) => Rose_Tree a -> Int
 ```
 
-Write a function to flatten all elements of the Rose_Tree to a list
+Write a function to flatten all elements of the Rose_Tree to a list:
 
 ```haskell
 flattenRose :: Rose_Tree a -> [a]
