@@ -38,17 +38,23 @@ Make sure you create a framework for this first – it’s tricky! You will need
 
 ## Matrix
 Matrices are mathematical objects that resembles a table. A 2x2 matrix has two rows and two columns, and four total entries. For example
+
 | 4 | 5 |
 |-----|-----|
 | 3 | 2 |
+
 Your first task is to create a data type for a 2x2 matrix, `Matrix`. Your second task is to implement a function which multiplies two matrices together. For example, the multiplication of
+
 | a11 | a12 |
 |-----|-----|
 | a21 | a22 |
+
 and 
+
 | b11 | b12 |
 |-----|-----|
 | b21 | b22 |
+
 gives
 
 | a11 b11+a12 b21 | a11 b12 + a12 b22 |
