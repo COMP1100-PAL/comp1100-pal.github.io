@@ -31,7 +31,7 @@ balanced way for a list?
 Write a function to delete an element from a Binary Search Tree at a given index.
 
 ```haskell
-Delete :: [a] -> Int -> [a]
+delete :: [a] -> Int -> [a]
 ```
 
 Make sure you create a framework for this first – it’s tricky! You will need to find the element at the index, split the lists at this element, delete the element, and re-join the lists. If you get stuck, think about how you deleted an element from a list, and then apply this to trees.
