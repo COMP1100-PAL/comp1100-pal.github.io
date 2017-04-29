@@ -9,6 +9,7 @@ categories: worksheets wk9 binary trees tree
 Write a function that flattens a tree, while preserving order. Flattening is the process of converting a tree to a list.
 `flatten (Node 5 (Node 3 (Node 2 Null Null) (Node 4 Null Null)) (Node 8 (Node 7 Null Null) (Node 10 Null Null))) = [2,3,4,5,7,8,10]`
 
+## Grow
 Given a list of elements than can be ordered, insert them one by one into a binary search tree. Remember that for a tree to satisfy the condition that it is a binary
 search tree it has to have every element smaller than the current element on the left sub-tree and every element larger than the current element on the right sub-tree.
 
@@ -18,28 +19,26 @@ data BSTree a = Node a (BSTree a) (BSTree a) | Null
 GrowBST :: (Ord a) => [a] -> BSTree a
 ```
 
+For example the list `[5, 2, 6, 1, 3, 8]` should output:
+!["YA BOI"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/img/grow_binary_tree.png?raw=true "WOOO")
+
+
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? Is there a way to modify your function so that it inserts the elements in a 
 balanced way for a list?
 
 ## Matrix
 Matrices are mathematical objects that resembles a table. A 2x2 matrix has two rows and two columns, and four total entries. For example
-
 | 4 | 5 |
 |-----|-----|
 | 3 | 2 |
-
 Your first task is to create a data type for a 2x2 matrix, `Matrix`. Your second task is to implement a function which multiplies two matrices together. For example, the multiplication of
-
 | a11 | a12 |
 |-----|-----|
 | a21 | a22 |
-
 and 
-
 | b11 | b12 |
 |-----|-----|
 | b21 | b22 |
-
 gives
 
 | a11 b11+a12 b21 | a11 b12 + a12 b22 |
