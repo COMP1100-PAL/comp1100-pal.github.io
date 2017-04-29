@@ -21,6 +21,24 @@ GrowBST :: (Ord a) => [a] -> BSTree a
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? Is there a way to modify your function so that it inserts the elements in a 
 balanced way for a list?
 
+## Matrix
+Matrices are mathematical objects that resembles a table. A 2x2 matrix has two rows and two columns, and four total entries. For example
+| 4 | 5 |
+|-----|-----|
+| 3 | 2 |
+Your first task is to create a data type for a 2x2 matrix, `Matrix`. Your second task is to implement a function which multiplies two matrices together. For example, the multiplication of
+| a11 | a12 |
+|-----|-----|
+| a21 | a22 |
+and 
+| b11 | b12 |
+|-----|-----|
+| b21 | b22 |
+gives
+
+| a11 b11+a12 b21 | a11 b12 + a12 b22 |
+|-----|-----|
+| a21 b11+ a22 b21 | a21 b12 + a22 b22 |
 
 ## Sieve of Erasthesene
 
