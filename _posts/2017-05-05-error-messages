@@ -39,7 +39,27 @@ error:
     Multiple declarations of `shadowed_function'
 ```
  
- 
+```haskell
+Could not deduce (a ~ a1)
+from the context (Ord a)
+  bound by the type signature for
+             biggerThan :: Ord a => a -> [a] -> [a]
+  at brokeyo.hs:16:15-38
+or from (Ord a1)
+  bound by the type signature for remove :: Ord a1 => [a1] -> [a1]
+  at brokeyo.hs:19:15-33
+  `a' is a rigid type variable bound by
+      the type signature for biggerThan :: Ord a => a -> [a] -> [a]
+      at brokeyo.hs:16:15
+  `a1' is a rigid type variable bound by
+       the type signature for remove :: Ord a1 => [a1] -> [a1]
+       at brokeyo.hs:19:15
+In the second argument of `(<)', namely `y'
+In the expression: x < y
+In a stmt of a pattern guard for
+               an equation for `remove':
+  x < y
+```
  
 
  ```haskell
