@@ -56,6 +56,10 @@ listMap func list = case list of
 	x:xs  -> func y : listMap func xs
 ```
 
+```haskell
+unilyfe :: String -> String
+unilyfe = "needs memes"
+```
 
 ```haskell
 shadowed_function :: (Swag b, Yolo t) => b -> u -> t -> t
