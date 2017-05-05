@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "error messages"
+date:   2017-05-05 19:40:42 +1100
+categories: worksheets wk10 error messages
+---
+
+Couldn't match expected type `a' with actual type `[a]'
+  `a' is a rigid type variable bound by
+      the type signature for ****** at YUNOWORK.hs:1:9
+In the pattern: x : xs
+In the pattern: [x : xs]
+In a case alternative: [x : xs] -> x + *** xs
