@@ -11,10 +11,6 @@ error:
     * Perhaps you meant `length' (imported from Prelude)
 ```
 
-```haskell
-shadowed_function :: (Swag b, Yolo t) => b -> u -> t -> t
-shadowed_function = undefined
-```
 
 
 ```haskell
@@ -37,9 +33,14 @@ shadowed_function x y z = case (compare x y) of
     GT -> (fromIntegral z) + 1
     LT -> (fromIntegral z) - 1
     z  -> (fromIntegral z)
+    
+shadowed_function :: b -> u -> t -> t
+shadowed_function = undefined
 ```
 
-
+ 
+ 
+ 
 
  ```haskell
  error:
