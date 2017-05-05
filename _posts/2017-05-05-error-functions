@@ -65,3 +65,13 @@ unilyfe = "needs memes"
 shadowed_function :: (Swag b, Yolo t) => b -> u -> t -> t
 shadowed_function = undefined
 ```
+
+```haskell
+biggerThan :: Ord a => a -> [a] -> [a]
+biggerThan x list = remove list
+  where
+    remove :: Ord a => [a] -> [a]
+    remove [] = []
+    remove (y:ys) | x < y = y : remove ys
+                  | otherwise = remove ys
+```
