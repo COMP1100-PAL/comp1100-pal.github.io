@@ -6,6 +6,13 @@ categories: worksheets wk10 error messages
 ---
 
 ```haskell
+Couldn't match expected type `String -> String'
+            with actual type `[Char]'
+In the expression: "****"
+In an equation for `****': **** = "****"
+```
+
+```haskell
 error:
     * Variable not in scope: lenth :: [Int] -> Int
     * Perhaps you meant `length' (imported from Prelude)
