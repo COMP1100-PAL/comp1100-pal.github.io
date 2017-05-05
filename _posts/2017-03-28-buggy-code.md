@@ -100,9 +100,11 @@ Clearly, I have missed the case statement for `Willow`. My code still compiles, 
 Uh-oh, should of listened to that warning!
 
 Here's a handy table to refer back to.
+
 |                                                                  Type Error                                                                  |                                     Out of Scope Error                                    |                                                      Parse Error                                                      |                            Multiple Declarations Error                            |                                                          Non-Exhaustive Cases                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|
 | You're type signature inputs and outputs are different than your functional definition inputs and outputs. Check the types in your function! | You are trying to use a function which does not exist. Make sure you check your spelling! | You have misused syntax. Look for arrows in guard statements, equals signs in case statements, and hanging brackets! | You have defined the same function or data type twice. Change one of their names! | You have not considered all the possibilities in your function. Look back at your data type to make sure you haven't missed anything! |
+
 
 ### Debugging the code!
 All these pieces of code have errors in them. Debug them, and identify the type of error!
