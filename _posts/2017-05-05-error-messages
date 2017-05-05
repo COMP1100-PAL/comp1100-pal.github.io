@@ -40,3 +40,27 @@ error:
     * Variable not in scope: treeadd :: Tree Int -> Int
     * Perhaps you meant `treeAdd'
 ```
+
+```haskell
+    No instance for (Num [(a, Int)]) arising from a use of `helper'
+    Possible fix: add an instance declaration for (Num [(a, Int)])
+    In the expression: helper (x : xs) 1
+    In a case alternative:
+        (x : xs)
+          -> helper (x : xs) 1
+          where
+              helper list acc
+                = case list of {
+                    [] -> ****
+                    (x : xs) -> ... : *** }
+    In the expression:
+      case list of {
+        [] -> ****
+        (x : xs)
+          -> helper (x : xs) 1
+          where
+              helper list acc
+                = case list of {
+                    [] -> ...
+                    (x : xs) -> ... } }
+```
