@@ -23,6 +23,15 @@ shadowed_function :: b -> u -> t -> t
 shadowed_function = undefined
 ```
 
+```haskell
+index :: [a] -> [(a,Int)]
+index list = case list of
+    [] -> error "lol"
+    (x:xs) -> helper (x:xs) 1
+        where helper list acc = case list of
+                  [] -> error "u wot m8"
+                  (x:xs) -> (x,acc) : helper xs acc+1
+```
 
 
 ```haskell
