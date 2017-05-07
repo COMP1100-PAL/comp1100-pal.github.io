@@ -91,3 +91,9 @@ In a stmt of a pattern guard for
                     [] -> ...
                     (x : xs) -> ... } }
 ```
+
+```haskell
+*** Exception: Non-exhaustive patterns in function
+```
+
+^ use the above three times
