@@ -11,6 +11,12 @@ treeAdd tree1 = case tree1 of
   Empty -> 0
   Node a ltree rtree -> a + (treeadd ltree) + (treead rtree)
  ```
+ 
+```haskell
+--Finds the first element in a list
+head:: [a] -> a
+head x:xs = x
+```
 
 ```haskell
 shadowed_function :: (Ord a, Integer b) => a -> a -> b -> x
@@ -32,7 +38,18 @@ index list = case list of
                   [] -> error "u wot m8"
                   (x:xs) -> (x,acc) : helper xs acc+1
 ```
-
+```Haskell
+--Returns the name of your fav pal mentor
+palMentor:: (Char, Int) -> Maybe String
+palMentor (initial, number) = case initial of
+'R' -> Just "Rohit-sama"
+'E' -> Just "Ella-san"
+'J' -> Just "Jay-chan"
+'L' -> Just "Lachie-chan"
+'T' | number == 1 -> Just "Tiggy-senpai"
+    | otherwise -> Just "Tina-senpai"
+_ -> Nothing
+```
 
 ```haskell
 --adds the number 1 to a list of integers
@@ -54,6 +71,15 @@ listMap :: (a -> b) -> [a] -> [b]
 listMap func list = case list of
 	[]    -> []
 	x:xs  -> func y : listMap func xs
+```
+
+```Haskell
+--Gives you a headache. Please never name your functions and variables like this, no matter how much of a giggle it gives you!
+--Try and figure out what ~AWESOME~ Haskell list function this imitates
+oh:: (a -> b) -> [a] -> [b]
+oh yea boi = case boi of
+   | [] -> []
+   | yeaaaaaa:booooooiiiii -> (yea yeaaaaaa):oh yea booooooiiiii
 ```
 
 ```haskell
