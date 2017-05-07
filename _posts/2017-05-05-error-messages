@@ -95,5 +95,6 @@ In a stmt of a pattern guard for
 ```haskell
 *** Exception: Non-exhaustive patterns in function
 ```
+Hint: This error only appears during runtime (when input is given)
 
-^ use the above three times
+@ Rohit, use the above ^ three times cuz all non-exhaustives give the same ~compiler feedback~
