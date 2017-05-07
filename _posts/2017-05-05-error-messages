@@ -4,6 +4,10 @@ title:  "error messages"
 date:   2017-05-05 19:40:42 +1100
 categories: worksheets wk10 error messages
 ---
+```Haskell
+error:
+    parse error on input ‘|’
+```
 
 ```haskell
 Couldn't match expected type `String -> String'
@@ -18,7 +22,10 @@ error:
     * Perhaps you meant `length' (imported from Prelude)
 ```
 
-
+```haskell
+error:
+ parse error on input ‘->’*
+```
 
 ```haskell
 Couldn't match expected type `a' with actual type `[a]'
@@ -37,6 +44,11 @@ error:
 ```haskell
 error:
     Multiple declarations of `shadowed_function'
+```
+
+```haskell
+error:
+Parse error in pattern: ***
 ```
  
 ```haskell
