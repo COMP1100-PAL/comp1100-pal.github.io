@@ -6,37 +6,38 @@ categories: worksheets wk10 error messages
 ---
 # Prelude
 *The lights shine low*
-*You're moves shine lower*
-*You're dazed- your mouth tastes like syntactic sugar*
-*You wander through Civic- people, buildings, potatoes form only vague shapes, thanks to the abstraction of your eyesight.*
+*Your moves shine lower*
+*You're dazed- have been gooder- mouth tastes like syntactic sugar*.
 
-*Hovering over this fuzzy outlines*
-*Burning starkly*
-*Are the error messages that have haunted you.*
+*You wander through Civic- people, buildings, potatoes form only vague shapes*
+*Everything looks like abstracted grapes.*
 
-*Through every assignment*
-*Every lab*
-*Every day*
+*Hovering over these fuzzy outlines- burning starkly-*
+*Are the error messages that have haunted you, sparkly.*
+
+*Through every assignment....*
+*Every lab...*
+*Every day..*
 *They're there.*
 
 *But as you sit down in Maccas, and dip your fries delicately in a thickshake*
 *You reflect upon how those error messages, beneath a cold, cruel exterior...*
-*Are really there to help you.*
+*Are really there to help you good code, make.*
 
 
-*Through every assignment*
-*Every lab*
-*Every day*
+*Through every assignment...*
+*Every lab...*
+*Every day...*
 *They're there for you.*
 
-*We're all going to make mistakes*
+You cry to your waiter:
+"*We're all going to make mistakes*
 *Yet, beautiful Haskell, gives such in-depth feedback*
-*If you heed it well, you can never go wrong.*
+*If you heed it well, you can never go wrong, hot cakes!*"
 
-*You decide it's time to go back and find every error message you've ever been given*
+*You decide it's time to go back and find every error message you've ever been given...*
 *It's time to make use of that feedback.*
 
-The lights shine low
 ```Haskell
 error:
     parse error on input ‘|’
