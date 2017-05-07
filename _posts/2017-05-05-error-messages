@@ -4,6 +4,39 @@ title:  "error messages"
 date:   2017-05-05 19:40:42 +1100
 categories: worksheets wk10 error messages
 ---
+# Prelude
+*The lights shine low*
+*You're moves shine lower*
+*You're dazed- your mouth tastes like syntactic sugar*
+*You wander through Civic- people, buildings, potatoes form only vague shapes, thanks to the abstraction of your eyesight.*
+
+*Hovering over this fuzzy outlines*
+*Burning starkly*
+*Are the error messages that have haunted you.*
+
+*Through every assignment*
+*Every lab*
+*Every day*
+*They're there.*
+
+*But as you sit down in Maccas, and dip your fries delicately in a thickshake*
+*You reflect upon how those error messages, beneath a cold, cruel exterior...*
+*Are really there to help you.*
+
+
+*Through every assignment*
+*Every lab*
+*Every day*
+*They're there for you.*
+
+*We're all going to make mistakes*
+*Yet, beautiful Haskell, gives such in-depth feedback*
+*If you heed it well, you can never go wrong.*
+
+*You decide it's time to go back and find every error message you've ever been given*
+*It's time to make use of that feedback.*
+
+The lights shine low
 ```Haskell
 error:
     parse error on input ‘|’
