@@ -75,3 +75,28 @@ biggerThan x list = remove list
     remove (y:ys) | x < y = y : remove ys
                   | otherwise = remove ys
 ```
+
+```haskell
+mentorNames :: Char -> String
+mentorNames char = case char of
+	'a' = "Tiggy"
+	'e' = "Ella"
+	'j' = "Jay"
+	'l' = "Lachie"
+	'r' = "Rohit"
+	't' = "Tina"
+```
+
+```haskell
+longer :: [a] -> [a] -> Bool
+longer [] [] = False
+longer _ [] = True
+longer (_:[]) (_:[]) = False
+longer (_:xs) (_:ys) = longer xs ys
+```
+
+```haskell
+mod2 :: Integer -> Integer
+mod2 n | even n = 0
+mod2 n | odd n  = 1
+```
