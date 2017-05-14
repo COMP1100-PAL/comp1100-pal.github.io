@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Eight Queens"
+date:   2017-05-14
+categories: worksheets wk11
+---
+
 # Eight Queens
 
 This is a classical problem in computer science. The objective is to place eight queens on a chessboard so that no two queens are attacking each other; i.e., no two queens are in the same row, the same column, or on the same diagonal.
