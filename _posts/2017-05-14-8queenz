@@ -2,6 +2,8 @@
 
 This is a classical problem in computer science. The objective is to place eight queens on a chessboard so that no two queens are attacking each other; i.e., no two queens are in the same row, the same column, or on the same diagonal.
 
+Hint: Represent the positions of the queens as a list of numbers 1..N. Example: [4,2,7,3,6,8,5,1] means that the queen in the first column is in row 4, the queen in the second column is in row 2, etc.
+
 ![oops](http://support.sas.com/documentation/cdl/en/orcpug/59630/HTML/default/images/queens.png "yas queen")
 
 ```haskell
@@ -20,8 +22,23 @@ diags :: Board a -> [Segment a]
 Implement the following functions with the eight queens problem in mind:
 
 ```haskell
--- A function that lists all possible 
+-- A function that lists all possible combinations of queen positions depending on the number of queens
+allQueens :: Int -> [Segment]
+```
+So ```allQueens 8``` will give the solution we want.
 
+## Computational Complexity
+
+If you haven't done complexity in class yet, feel free to skip this section and move on to another sheet.
+
+We can apply in-built Haskell functions to the ```allQueens``` function.
+*(You can assume the ```allQueens``` function is working for this question)*
+
+```haskell
+> length (queens 8)
+92
+> head (queens 8)
+[1,5,8,6,3,7,2,4]
 ```
 
-*Extension: If *
+What are the complexities of the ```allQueens```, ```length``` and ```head``` functions respectively?
