@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Meeting of the Shogunate"
@@ -9,9 +8,11 @@ categories: worksheets wk11
 
 # A Meeting of the Shogunate
 
-_Enter the shogun.
+Enter the shogun.
+
 Tony rules with iron fist,
-"Let's get functional."_
+
+"Let's get functional."
 
 Rohit-Hime, Jay-Chan, Ninja Tiggy, Samurai Tina and Ella Neko are all invited to a royal banquet at a _circular_ sushi train.
 At the feast, all five will sit next to eachother at a round table. The table planner, Lachie-Sama, is very nervous, as he has been told by Shogun Tony that the event must run as smoothly as possible. The guests have very strong feelings about each other, and  either like or dislike eachother. In fact, all five of the guests have rated on a scaling of -10 to 10 on how much they like every other guest. Lachie-Sama has tabulated their ratings as follows.
