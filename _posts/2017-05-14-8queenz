@@ -1,0 +1,27 @@
+# Eight Queens
+
+This is a classical problem in computer science. The objective is to place eight queens on a chessboard so that no two queens are attacking each other; i.e., no two queens are in the same row, the same column, or on the same diagonal.
+
+![oops](http://support.sas.com/documentation/cdl/en/orcpug/59630/HTML/default/images/queens.png "yas queen")
+
+```haskell
+type Row a = [a]
+type Board a = [Row a]
+
+data State = Queen | NotQueen
+
+type Segment a = [a]
+
+-- Assume that you have this function
+-- This function gives you the two diagonals of a board [top left to bottom right, top right to bottom left]:
+diags :: Board a -> [Segment a]
+```
+
+Implement the following functions with the eight queens problem in mind:
+
+```haskell
+-- A function that lists all possible 
+
+```
+
+*Extension: If *
