@@ -22,7 +22,7 @@ At the feast, all five will sit next to eachother at a round table. The table pl
 |              | Rohit-Hime | Jay-Chan | Ninja Tiggy | Samurai Tina | Ella Neko |
 |:------------:|:----------:|:--------:|:-----------:|:------------:|:---------:|
 |  Rohit-Hime  |            |    -7    |      4      |       2      |     -5    |
-|   Jay-Chan   |     -10    |          |      -8     |       7      |     -8    |
+|   Jay-Chan   |     -10    |  1000    |      -8     |       7      |     -8    |
 |  Ninja Tiggy |     10     |    -5    |             |       3      |     7     |
 | Samurai Tina |     10     |    -6    |      4      |              |     -8    |
 |   Ella-Neko  |     10     |    -10   |      -8     |       8      |           |
