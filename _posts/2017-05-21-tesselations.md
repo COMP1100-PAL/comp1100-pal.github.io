@@ -1,4 +1,11 @@
-# Tesselations
+# Chinese Whispers Haskell Edition
+
+---
+layout: post
+title:  "Chinese Whispers Haskell Edition"
+date:   2017-05-21
+categories: worksheets wk12
+---
 
 *Note: This is a group activity - a Haskell-version Chinese Whispers. The first person will write the function (in Haskell), the next will write a DESCRIPTION (in English), etc. (Haskell, English, Haskell, ...). Don't worry about specifics - just use the data definition or syntax you are most familiar with, this is supposed to be fun*
 
@@ -26,4 +33,3 @@ Pick one of the following functions (don't tell anyone your choice!) and begin t
 18.
 19.
 20. A function that applies a function over all elements a list
-21.
