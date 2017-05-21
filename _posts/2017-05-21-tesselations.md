@@ -25,7 +25,7 @@ Pick one of the following functions (don't tell anyone your choice!) and begin t
 10.
 11.
 12.
-13.
+13. 
 14. Takes a list and predicate, and returns the elements of the list where the predicate applies
 15.
 16.
