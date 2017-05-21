@@ -1,5 +1,3 @@
-# Chinese Whispers Haskell Edition
-
 ---
 layout: post
 title:  "Chinese Whispers Haskell Edition"
