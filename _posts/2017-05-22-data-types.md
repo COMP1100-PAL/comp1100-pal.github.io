@@ -8,9 +8,13 @@ categories: worksheets wk12 final revision data types
 
 ### Data Types Revision
 _One type, two type, red type, blue type._
+
 _Abstract type, algebraic type, record type, product type._
+
 _This one has a definition. This one has some repetition._
+
 _Say! What a lot of types there are._
+
 -Tony "The Cat in the Hat" Hosking
 
 Here are some good revision questions for data types. They are fairly open ended, to get you thinking about how you may implement some potential programs.
