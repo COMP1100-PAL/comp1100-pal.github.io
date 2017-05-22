@@ -37,12 +37,14 @@ At _Jay's Pizza Parlour_, pizza's are served hot with a side of data types. Like
 
 a) Develop a data type, `Order` that encapsulates all of these elements for ordering a pizza: Name, primary topping, secondary topping, cost, and whether your pizza is ready yet. Draw a diagram if this helps. Remember you can have _up to_ two secondary topings.
 
-b) Develop a data type  to handle multiple `Order`s (perhaps a list?).
+b) Is your `Order` type abstract or algebraic?
 
-c) Jay wants money now! Let him prioritise his most expensive pizzas first. Write a function that organises a list of `Order`s based on their price, arranging them in descending order.
+c) Develop a data type  to handle multiple `Order`s (perhaps a list?). Is this type abstract or algebraic?
 
-d) Write a function that adds up all the costs of a set of `Order`s, so Jay can calculate his final profit.
+d) Jay wants money now! Let him prioritise his most expensive pizzas first. Write a function that organises a list of `Order`s based on their price, arranging them in descending order.
 
-e) Order up! Jay wants the names of the people who's pizzas are ready. Given a set of `Order`s, write a function which extracts the names of the people whose pizzas are ready.
+e) Write a function that adds up all the costs of a set of `Order`s, so Jay can calculate his final profit.
 
-f) Uh-oh! It seems the health inspector is visiting tonight, and for this reason Jay does not want to sell any pizzas with Mystery Meat™ . Write a function that deletes all pizzas with Mystery Meat as a primary topping from a set of `Order`s.
+f) Order up! Jay wants the names of the people who's pizzas are ready. Given a set of `Order`s, write a function which extracts the names of the people whose pizzas are ready.
+
+g) Uh-oh! It seems the health inspector is visiting tonight, and for this reason Jay does not want to sell any pizzas with Mystery Meat™ . Write a function that deletes all pizzas with Mystery Meat as a primary topping from a set of `Order`s.
