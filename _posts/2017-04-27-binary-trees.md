@@ -29,4 +29,4 @@ Let us call a binary tree symmetric if you can draw a vertical line through the 
 Write a function called `QSymmetric` that returns `True` if an input tree is symmetric, and `False` otherwise.
 
 #### Question 6
-Write a function called `flip`, which takes in a binary tree and swaps the position of every subtree. That is, each right node goes to the left, and each right node goes to the left.
+Write a function called `flip`, which takes in a binary tree and swaps the position of every subtree. That is, for every subtree, each right node goes to the left, and each left node goes to the right.
