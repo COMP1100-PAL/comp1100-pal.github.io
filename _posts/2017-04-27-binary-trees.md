@@ -23,3 +23,10 @@ Write a function `sum`, which inputs a binary tree of integers and outputs the s
 Write a function `flatten`, which takes inputs `Tree a` and outputs a list of all the node elements. 
 
 _Extension: If your input tree for question 4 is balanced, can you think of a modification to your `flatten` function that preserves the order of the tree? I.e., can you flatten down the tree into a list of ascending values?_
+
+#### Question 5
+Let us call a binary tree symmetric if you can draw a vertical line through the root node and then the right subtree is the mirror image of the left subtree.
+Write a function called `QSymmetric` that returns `True` if an input tree is symmetric, and `False` otherwise.
+
+#### Question 6
+Write a function called `flip`, which takes in a binary tree and swaps the position of every subtree. That is, each right node goes to the left, and each right node goes to the left.
