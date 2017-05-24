@@ -26,6 +26,14 @@ These exercises are going to see how you fair with basic recursive functions ove
 
 9. Write a function that returns n many elements from the end of a list (Hint: use the length function)
 
+10. Write a funciton that returns the 2nd last element of a list
+
+11. Write a function that returns a reversed list
+
+12. Write a funciton that determines whether a list is a palindrome
+
+13. Eliminate consecutive duplicates of list elements. If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
+
 ```haskell
 
 ```
