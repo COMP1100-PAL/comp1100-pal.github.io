@@ -31,7 +31,7 @@ The sharknado moves as time passes, causing the plane to also move with it. The 
 
 4. Write a function ``movePlane`` that will change the coordinate of the plane by size 1, given an input direction of the sharknado. For example: ``movePlane`` called with the input ``Up`` on a plane at location (1,0) will move the plane to location (1,1).
 
-5.Now write a function ``movePlaneN`` that will recursively change the direction and coordinate of the plane n times. 
+5. Now write a function ``movePlaneN`` that will recursively change the direction and coordinate of the plane n times. 
 (Hint: ``movePlaneN`` should use the previously defined ``changeDir``/``changeDirN`` and ``movePlane``)
 
 # Extension: Further recursion questions
