@@ -15,6 +15,25 @@ tags: week4, recursion, record, planes
 
 *Your mouth begins to open in retaliation, but it's too late. The boss disappears in a flash, leaving only a sticky note behind her... you almost fall off your stool in a rush to grab it, terrified it might make contact with the moist floor...*
 
+Since we are looking at a plane inside a sharknado, we will need to record the direction that the plane is facing. The directions that the plane can face are ``North``, ``East``, ``South`` and ``West``. We will also need the location of the plane, this can be done by looking at location of the plane on a 2D grid (ignore height). We will keep track of this information through a record type called ``Plane``. 
+
+1. Define the data type ``Plane`` that includes all of the above specifications.
+
+Sharknadoes in the southern hemisphere spin clockwise. 
+
+2. Write a function ``changeDir`` changes the direction of the plane by a quarter of a full rotation, assuming that the plane is inside a sharknado. For example: if the plane was originally facing ``North``, ``changeDir`` would change the direction of the plane to ``East`` (since sharknadoes spin clockwise).
+
+If the plane stays in the sharknado for a long time, then it would change its direction multiple times.
+
+3. Write a recursive function ``changeDirN`` that changes the direction of the plane n times, each time the direction changes by a quarter of a full circle. 
+
+The sharknado moves as time passes, causing the plane to also move with it. The sharknado also has a direction, ``North``, ``East``, ``South`` and ``West``. IMPORTANT: This is not the direction that the plane is facing! Assume that every time the sharknado moves it only moves in step sizes of 1.
+
+4. Write a function ``movePlane`` that will change the coordinate of the plane by size 1, given an input direction of the sharknado. For example: ``movePlane`` called with the input ``Up`` on a plane at location (1,0) will move the plane to location (1,1).
+
+5.Now write a function ``movePlaneN`` that will recursively change the direction and coordinate of the plane n times. 
+(Hint: ``movePlaneN`` should use the previously defined ``changeDir``/``changeDirN`` and ``movePlane``)
+
 # Extension: Further recursion questions
 Write a recursive function which:
 1. Multiplies two numbers, **without using the multiplies * function**. e.g. `multiply (4,5) = 20`
