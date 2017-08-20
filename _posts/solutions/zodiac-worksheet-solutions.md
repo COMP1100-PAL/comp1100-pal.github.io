@@ -102,7 +102,7 @@ head' list = case list of
     (x:xs) -> x
 ```
 
-```
+```haskell
 -- note you can use Int or Float or Double, etc, instead of a
 -- a is polymorphic which allows it to work over all numbers
 -- if we restrict a to Num
