@@ -24,6 +24,8 @@ When you check a position, what happens if there is a ship there, what happens i
 The assignment spec has broken down the function quite well for us. So the following steps are just copied from the assignment spec. Each step has hints attached to them if you're stuck.
 Make sure you at least think about how you would impliment the step before you ask for help. If possible, locate your specific issue before asking questions. A general question like: "I got an error, how do I fix it?" won't get you helpful answers; a better question would be: "How would I edit a single element within a list of lists?"
 
+The following steps are copied from the assignment spec, with hints after each step.
+
 1. If the condition of the state is Won or Lost, return the original state unchanged.
 Hint: How do you tell what the condition of the state is?
 
