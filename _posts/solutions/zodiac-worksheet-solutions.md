@@ -93,7 +93,6 @@ Note: the type signature can change depending on how you wrote your previous fun
 
 
 
-LACHIE THIS PART IS FOR WEEK 5 PLZ FIX OH GREAT PAL LEADER!!!!!!!
 
 ```haskell
 head' :: [a] -> a
@@ -133,3 +132,63 @@ square_list list = case list of
     [] -> []
     (x:xs) -> x*x:(square_list xs)
 ```
+
+
+```haskell
+extract :: Int -> [a] -> a
+extract num list = case list of
+ [] -> error "list not long enough!"
+ x:xs
+  | num == 0 -> error "you can't take the 0th element of a list!"
+  | num == 1 -> x
+  | otherwise -> extract (num-1) xs
+```
+
+```haskell
+reverse_slow :: [a] -> [a]
+reverse_slow list = case list of
+ [] -> []
+ x:xs -> (reverse_slow xs) ++ [x]
+```
+
+```haskell
+reverse_fast :: [a] -> [a]
+reverse_fast list = reverse_fast' list []
+```
+
+```haskell
+reverse_fast' :: [a] -> [a] -> [a]
+reverse_fast' list1 list2 = case list1 of
+ [] -> list2
+ x:xs -> reverse_fast' xs (x:list2)
+```
+
+
+```haskell
+find :: (Eq a) => a -> [a] -> Int
+find elem list = find' elem list 1
+```
+
+```haskell
+find' :: (Eq a) => a -> [a] -> Int -> Int
+find' elem list counter = case list of
+ [] -> error "element not found"
+ x:xs
+  | x == elem -> counter
+  | otherwise -> find' elem xs (counter+1)
+```
+
+```haskell
+split :: [a] -> Int -> ([a],[a])
+split list num = (take (num-1) list, drop (num-1) list)
+```
+
+
+```haskell
+delete :: (Eq a) => [a] -> a -> [a]
+delete list val = ((fst (split list (num)) )) ++ (tail (snd (split list (num)) ))
+ where
+ 	num = find val list
+```
+
+
