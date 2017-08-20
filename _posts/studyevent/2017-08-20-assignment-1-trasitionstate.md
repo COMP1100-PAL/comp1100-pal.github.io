@@ -40,16 +40,21 @@ For step 4 and 5 the function ``updateList`` is *very* helpful.
 
 4. If the target coordinate has a ship present:
 Before you try to do the rest, first determine how to find out if there is a ship present at the given coordinate. (``!!`` might be useful)
+
   a) Mark the coordinate as ``Hit``
   Hint: Recall how you changed the ``gsShips :: Ships`` in ``GenShips`` in the ``placeShips`` function. This is the same, except instead of changing it from ``False`` to ``True``, you're changing it from ``Unchecked`` to ``Hit``
+  
   b) If all ships are sunk, change the Condition to Won, and return the new state.
   Hint: How do you know if *all* the ships are sunk? Try to impliment this as a seperate function.
+  
   c) If there are still remaining ships, return the new state.
   Hint: If not all the ships are sunk you should do this, so how do you know if not all the ships are sunk? (Check what you did in 4.b))
   
 5. If the target coordinate does not have a ship present:
+
   a) Mark the coordinate as ``Miss``
   Hint: This is the same as 4.a), except here you're changing ``Unchecked`` to ``Miss``. 
+  
   b) Increase the moves counter by one, and return the new state.
   Hint: Could you add 1 to the old move number? How to you pull out the old move number? 
   
