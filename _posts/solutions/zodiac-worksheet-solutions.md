@@ -95,11 +95,14 @@ Note: the type signature can change depending on how you wrote your previous fun
 
 LACHIE THIS PART IS FOR WEEK 5 PLZ FIX OH GREAT PAL LEADER!!!!!!!
 
+```haskell
 head' :: [a] -> a
 head' list = case list of
     [] -> error "no elements in input list"
     (x:xs) -> x
+```
 
+```
 -- note you can use Int or Float or Double, etc, instead of a
 -- a is polymorphic which allows it to work over all numbers
 -- if we restrict a to Num
@@ -108,18 +111,25 @@ add2 list = case list of
     [] -> error "no elements in input list"
     [x] -> error "only one element in input list"
     (x:y:xs) -> x + y
+```
 
+```haskell
 length' :: [a] -> Int
 length' list = case list of
     [] -> 0
     (x:xs) -> 1 + length' xs
+```
 
+```haskell
 sum' :: (Num a) => [a] -> a
 sum' list = case list of
     [] -> 0
     (x:xs) -> x + sum' xs
+```
 
+```haskell
 square_list :: (Num a) => [a] -> [a]
 square_list list = case list of
     [] -> []
     (x:xs) -> x*x:(square_list xs)
+```
