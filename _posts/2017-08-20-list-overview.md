@@ -6,9 +6,31 @@ categories: week5
 tags: week5, recursion, lists
 ---
 
-# Hi Tiggy
+## What are lists?
+A list is a collection of elements that are *all the same type*, and they're also polymorphic. This means you could have a list of any type you like, no matter how frivolous... for example:
+```haskell
+data Senpai = "Tiggy_Senpai" | "Tina_Senpai" | "Lachie_Chan" | "Ella_Sensei"
+function :: [Senpai] -> String
+function senpais = case senpais of
+    [] -> "I have no more senpais :("
+    (x:xs) -> "Notice me"++x++","++(function xs)
+```
+Note that this function uses the very convenient syntax (x:xs), where x represents the first element of the list (**of type senpai**), and xs the rest of the list(**of type [Senpai]**). We read (x:xs) as "x cons xs". 
+FUN FACT!!! Strings are actually lists of chars!
 
-helllooooooo
+## Examples of Lists and Super Common Functions We Use on Them
+
+```haskell
+head :: [a] -> a
+head [1,2,3] = 1
+-- This gives us the first element of the list
+tail :: [a] -> [a]
+tail [1,2,3] = [2,3]
+-- This gives us all but the first element of the list
+++ :: [a] -> [a]
+"Tiggy" ++ " Senpai" = "Tiggy Senpai"
+-- This "concatenates" two Lists
+```
 
 # Practice using lists!
 
