@@ -7,23 +7,36 @@ categories: worksheets wk6 midsemrevision
 
 # MORE LAST MINUTE MID SEM REVISION
 
-1. a) Convert 7-(base 10) to two's-complement binary using an 8-bit word.
+## Question 1
+a) Convert 7-(base 10) to two's-complement binary using an 8-bit word.
 b) What is a computer algorithm?
 c) What is abstraction?
 d) What is polymorphism?
 e) What does it mean for Haskell to be functional?
 f) What does side-effect free mean?
-2. a) Write a function that would count the length of an list of words. (Like the word counter on Word Document)
+
+## Question 2
+a) Write a function that would count the length of an list of words. (Like the word counter on Word Document)
 b) Write a function that will compute combinations. 
 The formula for combinations is nCr = n!/((n-r)!r!)
 Example of a combination: 5C2 = 10
-3. a) Write the truth table for ``implies (->)``.
+
+## Question 3
+a) Write the truth table for ``implies (->)``.
 b) Write a function that will express this.
-4. Write a function that will order a list of integers. 
-5. Check if two lists are equal.
-6. a) Write a function that takes ``[Bool]`` and checks if any are ``True``.
+
+## Question 4
+Write a function that will order a list of integers. 
+
+## Question 5
+Check if two lists are equal.
+
+## Question 6
+a) Write a function that takes ``[Bool]`` and checks if any are ``True``.
 b) Write a function that takes ``[Bool]`` and returns ``True`` if the entire list is ``True``.
-7. The following three Haskell functions are syntactically correct and compile without warnings. Read them carefully then proceed to the following question.
+
+## Question 7
+The following three Haskell functions are syntactically correct and compile without warnings. Read them carefully then proceed to the following question.
 ```haskell
 term_1 :: Integer -> Integer
 term_1 i
