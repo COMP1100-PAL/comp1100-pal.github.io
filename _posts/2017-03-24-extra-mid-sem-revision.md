@@ -30,6 +30,7 @@ Write a function that will order a list of integers.
 Check if two lists are equal.
 
 
+
 ## Question F
 1. Write a function that takes ``[Bool]`` and checks if any are ``True``.
 2. Write a function that takes ``[Bool]`` and returns ``True`` if the entire list is ``True``.
