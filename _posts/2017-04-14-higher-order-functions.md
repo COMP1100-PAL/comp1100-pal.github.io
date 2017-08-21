@@ -127,7 +127,7 @@ If you are having trouble, try to write the following functions.
   
 `foldl :: (a -> b -> b) -> [a] -> b`
 
-Folds can be used to implement any function where you traverse a list once, element by element, and then return something based on that. Whenever you want to traverse a list to return something, chances are you want a fold. Fold left does this by applying the function to a recurisve call.
+Folds can be used to implement any function where you traverse a list once, element by element, and then return something based on that. Whenever you want to traverse a list to return something, chances are you want a fold. Fold left does this by applying the function to a recursive call.
 
 e.g. `sum = foldl (+)`
 
