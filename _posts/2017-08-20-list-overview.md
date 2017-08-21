@@ -86,5 +86,5 @@ b) Write a function that splits a list at an index ‘n’ (you can keep the ele
 
 c) Write a function that deletes an element ‘x’ from a list and returns the list without that element (hint: using your previous functions may be helpful)
 ```haskell
-delete :: [1, 2, 3, 4] 2 = [1, 3, 4]
+>> delete :: [1, 2, 3, 4] 2 = [1, 3, 4]
 ```
