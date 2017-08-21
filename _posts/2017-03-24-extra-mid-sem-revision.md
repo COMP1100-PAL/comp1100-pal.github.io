@@ -7,36 +7,35 @@ categories: worksheets wk6 midsemrevision
 
 # MORE LAST MINUTE MID SEM REVISION
 
-## Question 1
-a) Convert 7-(base 10) to two's-complement binary using an 8-bit word.
-b) What is a computer algorithm?
-c) What is abstraction?
-d) What is polymorphism?
-e) What does it mean for Haskell to be functional?
-f) What does side-effect free mean?
+## Question A
+1. Convert 7-(base 10) to two's-complement binary using an 8-bit word.
+2. What is a computer algorithm?
+3. What is abstraction?
+4. What is polymorphism?
+5. What does it mean for Haskell to be functional?
+6. What does side-effect free mean?
 
-## Question 2
-a) Write a function that would count the length of an list of words. (Like the word counter on Word Document)
-b) Write a function that will compute combinations. 
-The formula for combinations is nCr = n!/((n-r)!r!)
-Example of a combination: 5C2 = 10
+## Question B
+1. Write a function that would count the length of an list of words. (Like the word counter on Word Document)
+2. Write a function that will compute combinations. The formula for combinations is nCr = n!/((n-r)!r!). Example of a combination: 5C2 = 10
 
-## Question 3
-a) Write the truth table for ``implies (->)``.
-b) Write a function that will express this.
+## Question C
+1. Write the truth table for ``implies (->)``.
+2. Write a function that will express this.
 
-## Question 4
+## Question D
 Write a function that will order a list of integers. 
 
-## Question 5
+## Question E
 Check if two lists are equal.
 
-## Question 6
-a) Write a function that takes ``[Bool]`` and checks if any are ``True``.
-b) Write a function that takes ``[Bool]`` and returns ``True`` if the entire list is ``True``.
+## Question F
+1. Write a function that takes ``[Bool]`` and checks if any are ``True``.
+2. Write a function that takes ``[Bool]`` and returns ``True`` if the entire list is ``True``.
 
-## Question 7
+## Question G
 The following three Haskell functions are syntactically correct and compile without warnings. Read them carefully then proceed to the following question.
+
 ```haskell
 term_1 :: Integer -> Integer
 term_1 i
