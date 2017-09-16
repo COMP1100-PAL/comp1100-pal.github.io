@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Binary to English"
+date:   2017-09-16 11:01441 +1100
+categories: worksheets wk7 extension
+---
+# Binary To English
+
+Remember the poem Tiggy-senpai delivered to the class years ago? It was posted on Piazza in binary form. 
+The link for reference:
+https://piazza.com/class/j53tz2pnw591bb?cid=27
+
+Binary isn't human readable, so if you wanted to relive the epic moment again, you'd have to translate it to English... 
+why do that by hand when you have a computer?
+
+Your task, should you choose to accept, is to write a function that will translate binary in English. 
+(Hint: Split this up into multiple functions)
+
+Think about how you would go about doing this, and ask for help when you get stuck. Discuss ideas with each other!
