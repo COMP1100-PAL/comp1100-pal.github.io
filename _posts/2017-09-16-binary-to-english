@@ -4,6 +4,7 @@ title:  "Getting Classy with Typeclasses, and Binary to English"
 date:   2017-09-16 11:01441 +1100
 categories: worksheets wk7
 ---
+
 # Getting Classy with Typeclasses
 Typeclasses are great. We use them in Haskell to support **overloading**, where a function has multiple meanings with different type signatures. Don't worry, Haskell always chooses a meaning at compile time, based on how the function is used.
 
