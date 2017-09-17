@@ -6,7 +6,7 @@ But do not fear. But I'm gonna let you in on a secret - our friends at PAL aren'
 
 We can only do that once we've understood Steven's base functions. Luckily, we can feel at peace knowing that these are all perfectly functional.
 
-Before you do anything, make sure you've _*read the whole assignment spec first!*_!
+Before you do anything, make sure you've __read the whole assignment spec first__!
 
 Here's a little something to get you started, to put the entire Stock Market into perspective: 
 
