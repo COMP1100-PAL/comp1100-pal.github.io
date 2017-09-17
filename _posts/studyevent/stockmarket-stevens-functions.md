@@ -33,9 +33,7 @@ Brainstorm with your fellow COMP1100ers on how you could write these four functi
 
 # Syntax to get familiar with
 
-`a@(b,c)` - When using tuples, this essentially defines the tuple so that it gives values to both the tuple itself and the two separate values inside the tuple.
-
-So we can refer to the information stored in the tuple by the entire tuple `a` itself or the parts `b` and `c` separately.
+`a@(b,c)` - When using tuples, this essentially defines the tuple so that it gives values to both the tuple itself and the two separate values inside the tuple. So we can refer to the information stored in the tuple by the entire tuple `a` itself or the parts `b` and `c` separately.
 
 `notElem` - Takes in an argument and a list, and returns False if the list contains an item equal to the element.
 
