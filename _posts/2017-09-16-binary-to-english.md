@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Classy with Typeclasses, and Binary to English"
-date:   2017-09-16 11:01441 +1100
+date:   2017-09-16
 categories: worksheets wk7
 ---
 
