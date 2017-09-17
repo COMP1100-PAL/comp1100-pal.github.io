@@ -23,7 +23,7 @@ As is the norm for PAL, it's time to get up on the whiteboards and collaborate. 
 It may be a good idea to explicitly write out the Input and Output for each of the 4 function. Not only will this clarify what is going on for you, it will do the same for your tutor. (Note: this is also a good tip for commenting your functions in general for future assignments!). This is more than just reciting the type signature, it is a careful consideration of what the inputs and outputs actually are in scope of the larger problem.
 
 
-e.g. for calculateWealth,
+e.g. for `calculateWealth`,
 
 Inputs: Current portfolio and stock history generated from all the 'stock rounds' prior to the current round
 
