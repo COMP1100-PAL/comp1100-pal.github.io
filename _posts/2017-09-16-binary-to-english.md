@@ -46,11 +46,13 @@ translates to `(+6)`
 Let's have a go with translating a few functions from lambda abstractions to Haskell functions that you are more used to:
 
 1. `\x -> x`
+
 _Additional: What is this function also known as?_
 
 2. `\x -> x * x + 5 / x`
 
 3. `addOneList lst = map (\x -> x + 1) lst`
+
 _Note: Can you see how lambda abstractions have shortened the function? This is especially common in higher-order functions such as `map` and `foldl` where the argument function can be written directly without explicitly defining the function elsewhere_
 
 P.S. You would have seen that these appear in Steven's functions that you need to explain for the assignment (and if you haven't, please do the assignment!), so hopefully this gives you good foundation for understanding what is going on.
