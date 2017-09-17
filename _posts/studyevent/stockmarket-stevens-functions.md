@@ -21,8 +21,12 @@ If you feel comfortable so far, move onto the next section for some more nitty-g
 As is the norm for PAL, it's time to get up on the whiteboards and collaborate. Firstly, draw a diagram of the different functions, include the helper functions, and how they all relate to each other. You can use the diagram above as a starting point. Talk to each other, discuss something when you don't understand it. Your understanding will be better for it, and this time, it's assessed!
 
 It may be a good idea to explicitly write out the Input and Output for each of the 4 function. Not only will this clarify what is going on for you, it will do the same for your tutor. (Note: this is also a good tip for commenting your functions in general for future assignments!). This is more than just reciting the type signature, it is a careful consideration of what the inputs and outputs actually are in scope of the larger problem.
+
+
 e.g. for calculateWealth,
+
 Inputs: Current portfolio and stock history generated from all the 'stock rounds' prior to the current round
+
 Output: Current wealth as a sum of existing wealth + sum of cash gained/lost from all stocks in possession, each individually weighted by quantity
 
 Brainstorm with your fellow COMP1100ers on how you could write the function differently. Keep in mind that the assignmetn does not request a detailed rewrite of these functions, and so keeping it broad and conceptual is where it's at.
