@@ -10,7 +10,7 @@ Before you do anything, make sure you've _*read the whole assignment spec first!
 
 Here's a little something to get you started, to put the entire Stock Market into perspective: 
 
-![TINA DOESN'T HAVE ACCESS](https://onedrive.live.com/?cid=A053B0AF57B9C3F7&id=A053B0AF57B9C3F7%2128781&parId=A053B0AF57B9C3F7%2128767&o=OneUp "Tina now has access")
+![TINA DOESN'T HAVE ACCESS](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/studyevent/Untitled%20Diagram.png "Tina now has access")
 
 As you're reading through the code, make sure to comment it!! If you haven't been commenting your code in assignments, now's a good time to start. Stay consistent with your coding style. Both your tutor and your future self will thank you later for doing this.
 
@@ -30,14 +30,19 @@ Brainstorm with your fellow COMP1100ers on how you could write the function diff
 # Syntax to get familiar with
 
 `a@(b,c)` - When using tuples, this essentially defines the tuple so that it gives values to both the tuple itself and the two separate values inside the tuple.
+
 So we can refer to the information stored in the tuple by the entire tuple `a` itself or the parts `b` and `c` separately.
+
 `notElem` - Takes in an argument and a list, and returns False if the list contains an item equal to the element.
-`transpose` - Takes in a list of lists, and transposes the rows with the columns (equivalent to matrix transposition). e.g. `transpose [[1,2,3],[4,5,6],[7,8,9]] = [[1,4,7],[2,5,8],[3,6,9]]
+
+`transpose` - Takes in a list of lists, and transposes the rows with the columns (equivalent to matrix transposition). e.g. `transpose [[1,2,3],[4,5,6],[7,8,9]] = [[1,4,7],[2,5,8],[3,6,9]]`
 
 # Vocab to get familiar with
 
 Short position: Stocks that are owed (i.e. sold and not bought back yet)
+
 Long position: Stocks that are bought and still currently owned
+
 i.e. An investor who owns 50 shares of Google is said to be long 50 shares, as they have paid in full the cost of owning the shares. Alternatively, an investor who has sold 50 Google shares without currently owning those shares is said to be short 50 shares.
+
 Order: An order is basically your instruction on whether to buy/sell a stock. (Note: Essentially what you are trying to program for `makeOrders` is one or more particular strategy or heuristic that will get you the greatest profit.) i.e. `Order s q` translates to "buy `q` amounts of stock `s`"
-Heuristic: A particular e.g. 
