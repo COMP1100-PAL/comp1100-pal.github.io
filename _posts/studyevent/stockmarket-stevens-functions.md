@@ -29,7 +29,7 @@ Inputs: Current portfolio and stock history generated from all the 'stock rounds
 
 Output: Current wealth as a sum of existing wealth + sum of cash gained/lost from all stocks in possession, each individually weighted by quantity
 
-Brainstorm with your fellow COMP1100ers on how you could write the function differently. Keep in mind that the assignmetn does not request a detailed rewrite of these functions, and so keeping it broad and conceptual is where it's at.
+Brainstorm with your fellow COMP1100ers on how you could write these four function differently. Keep in mind that the assignment does not request a detailed rewrite of these functions, and so keeping it broad and conceptual, then bouncing ideas off each other, is where it's at.
 
 # Syntax to get familiar with
 
