@@ -33,7 +33,15 @@ Lambda abstractions, otherwise known as anonymous functions, are another way you
 - No need to explicitly define new variables
 - Convenience!
 
-## eta-conversion
+## Getting Simple
+Write the following functions using lambda abstractions.
+
+1. Add 1 to every element of a list of integers.
+2. Filter our all odd elements of a list.
+3. Swap the order of the arguments of a function with two imputs.
+
+
+## Eta-Conversion
 
 Since each lambda abstraction is just a simplified version of a regular Haskell function, they can be translated back.
 
