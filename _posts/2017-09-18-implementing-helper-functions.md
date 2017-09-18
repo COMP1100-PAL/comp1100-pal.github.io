@@ -1,5 +1,5 @@
 # Warming up to Order Some Good Stuff
-So you understand Steven's functions, and have a bit more knowledge of the sharemarket than you might have expected. Now it's time to start thinking about functions that will be useful in completing `makeOrders`!
+So you understand Katya's functions, and have a bit more knowledge of the sharemarket than you might have expected. Now it's time to start thinking about functions that will be useful in completing `makeOrders`!
 
 Now your heuristic is up to you, and should certainl be your own creation. However, there are many functions which could be **very** useful for a variety of heuristics. 
 
