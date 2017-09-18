@@ -16,10 +16,6 @@ We can only do that once we've understood Katya's base functions. Luckily, we ca
 
 Before you do anything, make sure you've __read the whole assignment spec first__!
 
-Here's a little something to get you started, to put the entire Stock Market into perspective: 
-
-![](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/studyevent/Untitled%20Diagram.png "Tina now has access")
-
 As you're reading through the code, make sure to comment it!! If you haven't been commenting your code in assignments, now's a good time to start. Stay consistent with your coding style. Both your tutor and your future self will thank you later for doing this.
 
 If you feel comfortable so far, move onto the next section for some more nitty-gritty stuff!
