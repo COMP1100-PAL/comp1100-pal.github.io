@@ -110,8 +110,8 @@ In a stmt of a pattern guard for
 
  ```haskell
  error:
-    * Variable not in scope: treeadd :: Tree Int -> Int
-    * Perhaps you meant `treeAdd'
+    * Variable not in scope: lisAdd :: [Int] -> Int
+    * Perhaps you meant `listAdd'
 ```
 
 ```haskell
