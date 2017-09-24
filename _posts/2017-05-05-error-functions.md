@@ -5,11 +5,11 @@ date:   2017-05-05 19:36:05 +1100
 categories: worksheets wk10 error messages
 ---
 ```haskell
---Adds all the nodes of a tree of integers.
-treeAdd :: Tree Int -> Int
-treeAdd tree1 = case tree1 of
-  Empty -> 0
-  Node a ltree rtree -> a + (treeadd ltree) + (treead rtree)
+--Adds all elements of a list of integers.
+listAdd :: [Int] -> Int
+listAdd list = case list of
+  [] -> 0
+  x:xs -> x + lisAdd xs
  ```
  
 ```haskell
