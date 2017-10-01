@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BSTree Insert"
+title:  "Advanced Tree Questions"
 date:   2017-10-01 15:19:41 +1100
 categories: worksheets wk9 advanced tree questions
 ---
