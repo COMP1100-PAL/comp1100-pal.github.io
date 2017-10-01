@@ -38,10 +38,6 @@ As a protector of the forest, you are responsible for healing trees. Write a fun
 healer :: Tree Int -> Tree Int
 ```
 
-## Flatten
-Write a function that flattens a tree, while preserving order. Flattening is the process of converting a tree to a list.
-`flatten (Node 5 (Node 3 (Node 2 Null Null) (Node 4 Null Null)) (Node 8 (Node 7 Null Null) (Node 10 Null Null))) = [2,3,4,5,7,8,10]`
-
 ## Grow
 We can also assist Katya by growing more trees!
 Given a list of elements than can be ordered, insert them one by one into a binary search tree. Remember that for a tree to satisfy the condition that it is a binary search tree it has to have every element smaller than the current element on the left sub-tree and every element larger than the current element on the right sub-tree.
@@ -54,7 +50,6 @@ GrowBST :: (Ord a) => [a] -> BSTree a
 
 For example the list `[5, 2, 6, 1, 3, 8]` should output:
 !["YA BOI"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/img/grow_binary_tree.png?raw=true "WOOO")
-
 
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? 
 
