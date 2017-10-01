@@ -90,7 +90,7 @@ For example the list `[5, 2, 6, 1, 3, 8]` should output:
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? 
 
 #### Advanced: Balancing Trees
-Lopsided trees are weird, and annoying... Can we balance the tree somehow to make the branches more even?
+Lopsided trees are weird, and annoying... We must make sure the trees we already have can stay alive! If they are too lopsided, they may fall over, leaving them even more vulnerable to Steven's axe. Can we balance the tree somehow to make the branches more even?
 
 There are multiple ways to balance. Try think of a method and write a function that does this. 
 
