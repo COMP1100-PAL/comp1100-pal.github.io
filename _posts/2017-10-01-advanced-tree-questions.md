@@ -58,7 +58,7 @@ For example the list `[5, 2, 6, 1, 3, 8]` should output:
 
 Trace your function with the input `[1, 2, 3, 4]` What does your tree look like? 
 
-# Balancing Trees
+# Advanced: Balancing Trees
 Lopsided trees are weird, and annoying... Can we balance the tree somehow to make the branches more even?
 
 There are multiple ways to balance. Try think of a method and write a function that does this. 
