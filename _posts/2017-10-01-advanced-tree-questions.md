@@ -5,6 +5,19 @@ date:   2017-10-01 15:19:41 +1100
 categories: worksheets wk9 advanced tree questions
 ---
 
+# Hippie 101: Tree Hugging
+To save the trees we first have to understand the trees. Lets review the tree data type:
+
+``data Tree a = Nil | Node a (Tree a) (Tree a)``
+
+An example of a Haskell implementation of a tree of integers is:
+
+``Node 4 (Node 5  (Node 6 (Nil) (Nil)) (Nil)) (Node 2 (Nil) (Nil))``
+
+### Question 1
+Draw a binary tree of integers on the white board with at least 4 nodes. Write out your binary tree in full Haskell syntax, in accordance with the type definition given above. Is your tree a binary search tree? If not, re-draw your original tree so it is a binary search tree. Get a PAL mentor to check!
+
+
 ## Flatten
 Write a function that flattens a tree, while preserving order. Flattening is the process of converting a tree to a list.
 `flatten (Node 5 (Node 3 (Node 2 Null Null) (Node 4 Null Null)) (Node 8 (Node 7 Null Null) (Node 10 Null Null))) = [2,3,4,5,7,8,10]`
