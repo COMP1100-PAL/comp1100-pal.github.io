@@ -6,7 +6,7 @@ categories: worksheets wk9 advanced tree questions
 ---
 
 # Hippie 101: Tree Hugging
-To save the trees we first have to understand the trees. Lets review the tree data type:
+To save the trees we first have to understand the trees. Let's review the tree data type:
 
 ``data Tree a = Nil | Node a (Tree a) (Tree a)``
 
