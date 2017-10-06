@@ -17,10 +17,10 @@ We recommend writing multiple functional bots, improving the bot each time.
 The first legal move bot checks all of the possible moves, if it is a valid move, then picks the first valid move. 
 
 The first bot will not do very well. But this bot will help you understand the data types and structure of the assignment. 
-
-Write this bot
-Make sure it compiles
-Push it to the tournament server
+ 
+Write this bot   
+Make sure it compiles  
+Push it to the tournament server  
 Make sure you pass the pipeline tests
 
 Once you've done all that, move onto the next bot.
@@ -31,9 +31,9 @@ This bot will look at the legal moves, score how good the move is, and pick the 
 This bot will do a lot better than first legal move bot, however it does not use the concept of lookaheads... 
 This bot will help you understand how to evaluate any arbitrary board and return the move that corresponds to the best board.
 
-Write this bot
-Make sure it compiles
-Push it to the tournament server
+Write this bot  
+Make sure it compiles  
+Push it to the tournament server  
 Make sure you pass the pipeline tests
 
 Once you've done all that, move onto the next bot.
@@ -43,12 +43,12 @@ The minimax bot looks ahead into the future to try to see how the move will affe
 
 This bot is the main point of the assignment. This bot will teach you all about decision making trees and how they are used in artificial intelligence (e.g: Google DeepMind's Go).
 
-Write this bot
-Make sure it compiles
-Push it to the tournament server
+Write this bot  
+Make sure it compiles  
+Push it to the tournament server  
 Make sure you pass the pipeline tests
 
-Once you've done all that,  move onto the next bot.
+Once you've done all that, move onto the next bot.
 
 ## Alpha-Beta/Negamax Bot/Whatever-else-you-want Bot
 Both alpha-beta and negamax bots are variants of minimax. Please write a functioning minimax before attempting these bots. YOU WILL NEED TO EDIT YOUR MINIMAX IN THESE BOTS.
@@ -59,9 +59,9 @@ The Negamax bot relies on the zero-sum property of a two-player game to simplify
 
 These bots are the extended versions of minimax. It will push your knowledge of game trees to an expert level. It will teach you about pruning and is a good introduction into real world artificial intelligece programs (DeepMind uses pruning...).
 
-Write this bot
-Make sure it compiles
-Push it to the tournament server
+Write this bot  
+Make sure it compiles  
+Push it to the tournament server  
 Make sure you pass the pipeline tests
 
 Once you've done all that, you should probably write your report detailing *all* the things you've learnt...
