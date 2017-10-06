@@ -57,7 +57,9 @@ The Alpha-Beta bot looks ahead into the future to try to see how moves will affe
 
 The Negamax bot relies on the zero-sum property of a two-player game to simplify the minimax algorithm.
 
-These bots are the extended versions of minimax. It will push your knowledge of game trees to an expert level. It will teach you about pruning and is a good introduction into real world artificial intelligece programs (DeepMind uses pruning...).
+These bots are the extended versions of minimax. It will push your knowledge of game trees to an expert level. 
+!["YA BOI"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/img/grow_binary_tree.png?raw=true "WOOO")
+It will teach you about pruning and is a good introduction into real world artificial intelligece programs (DeepMind uses pruning...).
 
 Write this bot  
 Make sure it compiles  
