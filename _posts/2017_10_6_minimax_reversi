@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Minimax Reversi"
+date:   2017-10-0 18:01:41 +1100
+---
+
 # Minimaaaaaxx
 For the following worksheet, we'll be using the full-information game "Reversi". If you're not sure how this game works, make sure to ask a friend (...we're your friends too, right? :<).
 ### Investigating Lookaheads
