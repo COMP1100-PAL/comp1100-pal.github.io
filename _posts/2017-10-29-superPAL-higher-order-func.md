@@ -50,7 +50,7 @@ Gets the last element of the list
 
 e.g. `last [1,2,3] = 3`
 
-8. `isElem :: a->[a] -> Bool`
+8. `isElem :: a -> [a] -> Bool`
 
 Checks is an elemet is in the list.
 
