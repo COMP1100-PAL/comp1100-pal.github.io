@@ -39,7 +39,14 @@ a) Add 1 to every element of a list of integers.
 b) Filter our all odd elements of a list.
 c) Swap the order of the arguments of a function with two inputs.
 
-## Bonus Question
+## Challenge Question
+# Data Types
+Recall the data type for a set:
+```Set a = Empty | Element a (Set a)```
+a) Write a function which calculates the intersection of two sets.
+b) Write a function which finds the compliment of two sets.
+
+# Anonymous Functions
 Suppose you have a list of functions of type `a -> a`. Using an anonymous function, can you figure out a way to generate a new function of type `a->a` which applies all the functions in the list together?
 
 For example:
