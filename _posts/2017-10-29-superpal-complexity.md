@@ -16,7 +16,7 @@ Complexity is typically represents as a _rate of growth_ proportional to the inp
 | O(nlog(n)) | linearithmic |
 | O(n^2) | quadrative |
 | O(n^c) | polynomial |
-| $$ O(c^n) $$ | exponential |
+| O(c^n) | exponential |
 
 where c is a constant
 
