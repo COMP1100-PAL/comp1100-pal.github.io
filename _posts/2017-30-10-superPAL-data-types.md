@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Types & Anonymous Functions"
+title:  "SuperPAL: Data Types & Anonymous Functions"
 date:   2017-10-30 11:25:29 +1100
 categories: superPAL week 12 exam final
 ---
