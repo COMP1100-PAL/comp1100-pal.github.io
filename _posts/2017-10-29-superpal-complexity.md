@@ -72,6 +72,7 @@ Consider the classic problem of cannibals and missionaries. The problem goes as 
 There are 3 cannibals and 3 missionaries, stuck on one side of a river with a bout. The aim is to get all of them to the other side of the river. The boat can only carry two and requires one to operate it. One of the cannibals cannot operate it because he has lost an arm...somehow. If the cannibals outnumber missionaries at any point, then the cannibals will eat the missionaries.
 
 Find the shortest way for everyone to get across the river without anyone being eaten. What was the complexity of the function you used to find the answer?
+
 _Note: Implementation always shows deeper understanding, but a conceptual answer for this question is fine too_
 
 # Challenge Question: Bogosort
@@ -107,7 +108,8 @@ shuffle xs = do
 -- the IO type from the output of shuffle, i.e. making it type [a]
 bogosort :: (Ord a) => [a] -> IO [a]
 bogosort li | isSorted li = return li
-| otherwise = shuffle li >>= bogosort```
+| otherwise = shuffle li >>= bogosort
+```
 
 What are the average and worst time complexities of this program?
 _Hint: Does bogosort ever terminate?_
