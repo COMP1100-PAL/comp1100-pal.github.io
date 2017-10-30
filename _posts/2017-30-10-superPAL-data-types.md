@@ -43,7 +43,9 @@ c) Swap the order of the arguments of a function with two inputs.
 # Data Types
 Recall the data type for a set:
 ```Set a = Empty | Element a (Set a)```
+
 a) Write a function which calculates the intersection of two sets.
+
 b) Write a function which finds the compliment of two sets.
 
 # Anonymous Functions
