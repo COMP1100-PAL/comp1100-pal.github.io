@@ -1,0 +1,23 @@
+# Lets talk about doggos (functions)
+
+Here's a table of the different ways you can write a function. There's a mathematical definition, a plain English description , and one in Haskell.
+
+eg. 
+
+Math | Haskell | English
+--- | --- | ---
+f(x) := x^2 | ```square :: Integer -> Integer``` ```square x = x * x``` | the function 'square' with takes parametre 'x' and times it by itself.
+
+
+Fill in the gaps for this table:
+
+Math | Haskell | English
+--- | --- | ---
+| | `poodle :: Integer -> Integer poodle x = x ^ 2` | the function poodle takes parametre 'x' and raises it to the second power
+pug (who) := who + " is a good boy" | `pug :: String -> String` | the function pug takes the parametre 'who' and returns a string that says "_who_ is a good boy" |
+puppies (dad, mum) := dad * mum |||
+bad_dog(good) := !good || bad_dog is a function that takes a boolean and negates it|
+|| |is_enemy is a function that takes a string called 'animal' and returns true if it is equal to 'cat' (and false otherwise)|
+||| samoyed is a function that takes two integers representing the sides of a right-angled triangle and returns the length of the third side. ||||
+||`spitz :: Integer -> Integer` `spitz n = spitz (n-1) + n` `spitz 0 = 0`  `spitz 1 = 1`||
+||`is_thicc_boi :: String -> Bool` `is_thicc_boi n | n == "corgi" = True | n == "greyhound" = False |otherwise = False`||
