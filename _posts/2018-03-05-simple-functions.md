@@ -7,7 +7,8 @@ Haskell is a functional programmming. This means we should have a good idea of w
 -Give examples of functions in mathematics (e.g., f(x) = 5x), and real life (e.g., f (smiling) = happy, f (frowning) = angry).
 -How do functions relate to programming in Haskell.
 
-### Activity 2
+### Activity 2: Writing Functions
+See adjoining sheet.
 
 
 
