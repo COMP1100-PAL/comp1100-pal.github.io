@@ -1,0 +1,44 @@
+# 
+
+## Side Effects
+
+One important aspect of Haskell is that it is a side-effect free language. But what does this mean?
+
+### Definition
+
+There are three main characteristics to side-effect free functions:
+
+* Same output for given input
+* Does not rely on variables (during computation)
+* Does not write to memory
+    
+### Example
+
+__Side effect-free world: "If it rains today, the ground will be wet"__
+__Side effecting world: "It rains today, the ground is wet and ANU campus is closed"__
+
+### Questions
+
+Which of these is side effect free?
+
+* I write 5 on a whiteboard -- SA
+* I think of the sentence "Hello World"
+* Edmund pays Tina $10
+* I dance alone in my room
+* Robin gets a girlfriend
+* Edmund loses a pen
+
+### Philosphy?
+
+If a program changes state but no one is there to see it, is it side effecting?
+Computer Science says yes.
+
+## Lambda Calculus
+
+λ-calculus is essentially very high level mathematics.
+
+```
+1. λx.x
+2. (λx.y)x
+3. λx.(λy.x)x
+```
