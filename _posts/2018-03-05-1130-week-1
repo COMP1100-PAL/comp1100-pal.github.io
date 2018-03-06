@@ -19,26 +19,51 @@ __Side effecting world: "It rains today, the ground is wet and ANU campus is clo
 
 ### Questions
 
-Which of these is side effect free?
+Which of these is side effect free? Think about it in the context of the room, not necessarily the world at large.
 
-* I write 5 on a whiteboard -- SA
+* I write 5 on a whiteboard
 * I think of the sentence "Hello World"
 * Edmund pays Tina $10
 * I dance alone in my room
 * Robin gets a girlfriend
 * Edmund loses a pen
 
-### Philosphy?
+Draw a table with two headings: **Side Effect-Free** and **Side Effecting**, and fill in each of the examples underneath. For each example, create a corresponding example for the other heading. e.g. "I write 5 on a whiteboard" is side effecting, a side effect-free example could be "I think of the number 5".
+
+### Philosophy
 
 If a program changes state but no one is there to see it, is it side effecting?
 Computer Science says yes.
 
 ## Lambda Calculus
 
-λ-calculus is essentially very high level mathematics.
+Lambda calculus is the basis for all functional programming languages and some would argue that it is intrinsic to an understanding of computer science and the core components of any programming language. λ-calculus is essentially very high level mathematics. Haskell is built almost entirely on the concepts found here!
+
+### Basic λ Syntax
+
+*__`let x = e1 in e2` is short for `(λx.e2) e1`__*
+
+### From λ to Maths & English
 
 ```
-1. λx.x
+1. λy.(λx.xy)
 2. (λx.y)x
 3. λx.(λy.x)x
+4. λx.x*x
+5. λ(hosking).(hosking + 57)
+```
+
+_Hint: λy basically means "for all y"_
+
+### From Maths & English to λ
+
+```
+1. x**2 + 3y ∀x, y
+2. x**2 + y**2 ∀x, y
+3. x**2 - 7x - 10 ∀x
+4. The Pythagoras' Theorem (given 2 sides of a right-angled triangle, find the 3rd side). _Hint: You are allowed to use √_
+5. The Manhattan Distance
+!["mmmmm manhattan"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/manhattan.JPG "mmmmm manhattan")
+
+
 ```
