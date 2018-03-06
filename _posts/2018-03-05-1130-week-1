@@ -1,4 +1,4 @@
-# 
+# COMP1130 PAL Week 3: Side Effects & Lambdas
 
 ## Side Effects
 
@@ -15,7 +15,7 @@ There are three main characteristics to side-effect free functions:
 ### Example
 
 __Side effect-free world: "If it rains today, the ground will be wet"__
-__Side effecting world: "It rains today, the ground is wet and ANU campus is closed"__
+__Side effecting world: "If it rains today, the ground is wet and ANU campus is closed"__
 
 ### Questions
 
@@ -45,6 +45,8 @@ Lambda calculus is the basis for all functional programming languages and some w
 
 ### From λ to Maths & English
 
+Let's convert these lambda expressions into either a mathematical or plain English statement. _Hint: Remember that λy basically means "for all y"._
+
 ```
 1. λy.(λx.xy)
 2. (λx.y)x
@@ -53,9 +55,9 @@ Lambda calculus is the basis for all functional programming languages and some w
 5. λ(hosking).(hosking + 57)
 ```
 
-_Hint: λy basically means "for all y"_
-
 ### From Maths & English to λ
+
+Now for something slightly down the deep end - here's your turn to create your own lambdas. Convert the following mathematical/plain English formulas into Lambda expressions. You may find it helpful to convert the plain English statements into Maths first - λ is much closer to the Maths you are accustomed to than you might expect!
 
 ```
 1. x**2 + 3y ∀x, y
