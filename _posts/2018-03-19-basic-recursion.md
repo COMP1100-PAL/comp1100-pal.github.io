@@ -1,20 +1,42 @@
 # PAL Week 5
 
+# I'm angry, angry about elves
 
 ## What is recursion
 Recursion is one way how we can repeat statements in programming, in fact, it is the only way to repeat statements haskell. Functions are everywhere in Haskell, when you call the same function within itself you're performing recursion! This session we will explore the properties of recursion and how to create your own recursive functions.
 
 ### First off - How do we visualise recursion?
-We like to perform something called a _trace_ to explicitly step through the program as it executes. See how in the example we just keep applying the function over and over until it tells us to stop.
-
-```Haskell
+We like to perform something called a __trace__ to explicitly step through the program as it executes. See how in the example we just keep applying the function over and over until it tells us to stop.
+```haskell
 -- Returns the factorial of a positive number (piecewise style)
-factorial :: Integer -> Integer factorial n = n * factorial (n - 1) factorial 0 = 1 --Returns the factorial of a positive number (guard style)
-factorial :: Integer -> Integer factorial n | n > 0 = n * factorial (n-1) | otherwise = 1 --Returns the factorial of a positive number (case style)
-factorial :: Integer -> Integer factorial n = case n of 0 -> 1 _ -> n * factorial (n - 1) -- there is no functional difference between all these functions, they are indentical in their outputs, they are just a refresher on guarded vs patternmatched decision making in haskell
+factorial :: Integer -> Integer
+factorial n = n * factorial (n - 1)
+factorial 0 = 1
+
+--Returns the factorial of a positive number (guard style)
+factorial :: Integer -> Integer
+factorial n 
+    | n > 0 = n * factorial (n-1)
+    | otherwise = 1
+
+--Returns the factorial of a positive number (case style)
+factorial :: Integer -> Integer
+factorial n = case n of
+    0 -> 1
+    _ -> n * factorial (n - 1)
+    
+-- there is no functional difference between all these functions, they are indentical in their outputs, they are just a refresher on guarded vs patternmatched decision making in haskell
 -- Now the trace:
+
 -- evaluate: factorial 4
-factorial 4 = 4 * factorial (4 - 1) = 4 * 3 * factorial (3 - 1) = 4 * 3 * 2 * factorial (2 - 1) = 4 * 3 * 2 * 1 * factorial (1 - 1) = 4 * 3 * 2 * 1 * 1 = 24
+factorial 4 
+= 4 * factorial (4 - 1)
+= 4 * 3 * factorial (3 - 1)
+= 4 * 3 * 2 * factorial (2 - 1)
+= 4 * 3 * 2 * 1 * factorial (1 - 1)
+= 4 * 3 * 2 * 1 * 1
+
+= 24
 ```
 
 Question 1.
