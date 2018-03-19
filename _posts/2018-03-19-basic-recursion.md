@@ -2,7 +2,7 @@
 
 # First - I write no base case
 
-![alt text](comp1100-pal.github.io/_posts/29342356_1605982192820900_6888191733834711040_o.jpg "alt text")
+![](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/29342356_1605982192820900_6888191733834711040_o.jpg)
 
 ## What is recursion
 Recursion is one way how we can repeat statements in programming, in fact, it is the only way to repeat statements haskell. Functions are everywhere in Haskell, when you call the same function within itself you're performing recursion! This session we will explore the properties of recursion and how to create your own recursive functions.
