@@ -43,7 +43,7 @@ _Note: Not all lambdas have a normal form! Can you think of why?_
 
 Beta-equivalence basically refers to 2 different lambda expressions that reduce to the same normal form.
 
-Formally,  if a $\stackrel{=}{\beta}$ b and both are normal
+Formally,  if a $\int_0^3 2x \,dx$ b and both are normal
 forms, then they are equal
 
 ## Y-Combinator
