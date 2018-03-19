@@ -25,7 +25,8 @@ factorial n = case n of
     0 -> 1
     _ -> n * factorial (n - 1)
     
--- there is no functional difference between all these functions, they are indentical in their outputs, they are just a refresher on guarded vs patternmatched decision making in haskell
+-- there is no functional difference between all these functions, they are indentical in their outputs, 
+--they are just a refresher on guarded vs patternmatched decision making in haskell
 -- Now the trace:
 
 -- evaluate: factorial 4
