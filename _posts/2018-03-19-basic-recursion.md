@@ -73,8 +73,10 @@ Write a function called `digits` which determines the number of digits in an int
 
 
 Question 7.
-Write a function that takes an Integer input and calculates the Fibonacci number corresponding to the input.
+a) Write a function that takes an Integer input and calculates the Fibonacci number corresponding to the input.
 Remember,
 `Fib 0 = 0`
 `Fib 1 = 1`
 `Fib n = the sum of the previous two Fibonacci numbers`
+
+b) This is an example of a function that does the same computation multiple times. Why might this slow down the function? Draw a tree diagram to demonstrate the recursive nature of this function. Do you see duplicated trees? What does this represent?
