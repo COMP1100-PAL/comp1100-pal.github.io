@@ -57,8 +57,8 @@ Beta-equivalence basically refers to 2 different lambda expressions that reduce 
 
 Reduce the following:
 
-*`(λx.x) y`
-*`(λz.λw.z) y y`
+* `(λx.x) y`
+* `(λz.λw.z) y y`
 
 This is an example of beta-equivalence.
 
