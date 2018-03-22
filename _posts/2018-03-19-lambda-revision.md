@@ -1,4 +1,4 @@
-# COMP1130 Week 5: Lambda Revision
+# COMP1130 Week 5
 
 ## Basics
 
