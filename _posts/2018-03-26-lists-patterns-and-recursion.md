@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "lists and patters"
+date:   2018-03-26
+categories: week 6, comp1100
+---
+
 Today we'll be looking at lists, and practice recursing through them.
 
 1. What is a list?
