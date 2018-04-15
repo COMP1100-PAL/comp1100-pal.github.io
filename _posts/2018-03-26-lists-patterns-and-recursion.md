@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "lists and patters"
+title:  "Lists and Patterns"
 date:   2018-03-26
 categories: week 6, comp1100
 ---
