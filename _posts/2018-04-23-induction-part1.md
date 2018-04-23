@@ -51,7 +51,6 @@ xs !! n | n < 0 = error "Prelude.!!: negative index"
 2. Fix the code so that it does what it is meant to do according to the specifications (in comments), and test
 to check whether the code is correct.
 3. Now using the fixed code, prove that the following holds:
-
 `fibSlow n == fibFast n`
 
 You may assume that the fibseq list is infinite.
