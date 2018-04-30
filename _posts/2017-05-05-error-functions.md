@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "error functions"
+title:  "Error Functions"
 date:   2017-05-05 19:36:05 +1100
 categories: worksheets wk10 error messages
 ---
@@ -42,11 +42,11 @@ index list = case list of
 --Returns the name of your fav pal mentor
 palMentor:: (Char, Int) -> Maybe String
 palMentor (initial, number) = case initial of
-'R' -> Just "Rohit-sama"
-'E' -> Just "Ella-san"
+'C' -> Just "Cecilia-sama"
+'E' -> Just "Edmund-san"
 'J' -> Just "Jay-chan"
 'L' -> Just "Lachie-chan"
-'T' | number == 1 -> Just "Tiggy-senpai"
+'T' | number == 1 -> Just "Robin-senpai"
     | otherwise -> Just "Tina-senpai"
 _ -> Nothing
 ```
@@ -105,11 +105,11 @@ biggerThan x list = remove list
 ```haskell
 mentorNames :: Char -> String
 mentorNames char = case char of
-	'a' = "Tiggy"
-	'e' = "Ella"
+	'r' = "Robin"
+	'e' = "Edmund"
 	'j' = "Jay"
 	'l' = "Lachie"
-	'r' = "Rohit"
+	'c' = "Cecilia"
 	't' = "Tina"
 ```
 
