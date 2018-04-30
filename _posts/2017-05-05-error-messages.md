@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "error messages"
+title:  "Error Messages"
 date:   2017-05-05 19:40:42 +1100
 categories: worksheets wk10 error messages
 ---
@@ -142,5 +142,3 @@ In a stmt of a pattern guard for
 *** Exception: Non-exhaustive patterns in function
 ```
 Hint: This error only appears during runtime (when input is given)
-
-//@ Rohit, use the above ^ three times cuz all non-exhaustives give the same ~compiler feedback~
