@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Getting Started on the Assignment..."
-date:   2017-10-06 17:03:41 +1100
-categories: worksheets wk9 ass3
+date:   2020-14-05
+categories: worksheets wk11 ass3
 ---
 
 # HELP I'm stuck on the assignment...
@@ -20,8 +20,7 @@ The first bot will not do very well. But this bot will help you understand the d
  
 Write this bot   
 Make sure it compiles  
-Push it to the tournament server  
-Make sure you pass the pipeline tests
+Push it to the tournament server
 
 Once you've done all that, move onto the next bot.
 
@@ -33,8 +32,7 @@ This bot will help you understand how to evaluate any arbitrary board and return
 
 Write this bot  
 Make sure it compiles  
-Push it to the tournament server  
-Make sure you pass the pipeline tests
+Push it to the tournament server
 
 Once you've done all that, move onto the next bot.
 
@@ -45,8 +43,7 @@ This bot is the main point of the assignment. This bot will teach you all about 
 
 Write this bot  
 Make sure it compiles  
-Push it to the tournament server  
-Make sure you pass the pipeline tests
+Push it to the tournament server
 
 Once you've done all that, move onto the next bot.
 
@@ -64,7 +61,6 @@ It will teach you about pruning and is a good introduction into real world artif
 
 Write this bot  
 Make sure it compiles  
-Push it to the tournament server  
-Make sure you pass the pipeline tests
+Push it to the tournament server
 
 Once you've done all that, you should probably write your report detailing *all* the things you've learnt...
