@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "what's in a heuristic"
+title:  "What's in a heuristic?"
 date:   2018-05-14 14:13:00 +1100
 categories: w11
 ---
