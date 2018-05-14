@@ -16,7 +16,7 @@ Take for example the classic Noughts and Crosses.
 If it's Nought's turn where should the player place their token? Why?
 It's an easy choice if you're one move away from winning, but what if you're not? A typical solution is to give a board state a 'score'. This means that for any given move (which will produce a new board state) we'll get a new board state with an associated score. By maximising your score each turn you should be making the best decision every step of the way.
 
-# ACtivity 1
+# Activity 1
 
 Play backgammon with a friend, and think of the heuristics you use!
 
