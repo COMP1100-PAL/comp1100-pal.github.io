@@ -17,13 +17,13 @@ Note that while traditional minimax doesn't account for any random elements, it 
 
 Perform minimax on this tree:
 
-< < insert tree here > >
+![](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/29342356_1605982192820900_6888191733834711040_o.jpg)
 
 ## 2. Expected Minimax
 
 *Expected Minimax* accounts for unexpected elements - such as a dice roll! It effectively makes any random elements into a third player. Without developing a formal codified method, apply expected minimax to the same tree!
 
-<< INSERT TREE HERE >>
+![](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/treez1.png)
 
 ## 3. Codify Expected Minimax
 
