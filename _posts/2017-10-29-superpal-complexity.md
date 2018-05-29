@@ -22,6 +22,10 @@ where c is a constant
 
 Typically, we are usually interested in the worst case: what is the maximum number of operations that might be performed for a given problem size. This is what is typically represented by O(n). For practical purposes, we are also interested in the average case: represented by Θ(n).
 
+Here is a useful visualisation for complexity:
+
+!["ALT TEXT"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/Screenshot%20from%202018-05-29%2016-30-25.png "WOWO")
+
 Time to have a go yourself! And please don't be afraid to ask for help. That's what the whole study event is for.
 
 # Adding an element to a list
