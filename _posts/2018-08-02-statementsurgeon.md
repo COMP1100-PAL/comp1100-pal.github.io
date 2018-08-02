@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Statement Surgeon"
+date:   2018-08-02 18:01:41 +1100
+categories: worksheets wk3 decomposition
+---
 # Statement Surgeon
 In your first week lab, you used GHCi (an interactive Haskell envinronment) to evaluate the following expressions. Today, you're going to figure out what data types these expressions involve. For each expression, answer the following questions:
 1. What is the data type of the output?
