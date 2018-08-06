@@ -132,7 +132,6 @@ for each of the following functions do the following
 1. Write a version of it using cases if it was in guards (Or the other way around)
 2. Ask your group what are some strengths and weaknesses of each style for each function after you write it
 
-* 
 ```
 LongerThan6ButShorterThan2 :: String -> String
 LongerThan6ButShorterThan2 word 
