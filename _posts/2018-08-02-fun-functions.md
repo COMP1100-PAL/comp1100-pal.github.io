@@ -12,9 +12,7 @@ How To Write a Function
 
 Hello fellow confused individuals. Today, you will grow out of being younglings and become PALawans. What is a function? How do I write one? What are the options available to me? If you can ask yourself these questions and not be able to answer them then you’re in the right place.
 
-----------
-Brief Recap
--------------
+## Brief Recap
 
 The actual syntax of writing a Haskell function may seem confusing to you but don’t worry, thats what you’re here for. Take a look at this function here, which just doubles its input.
 ```
@@ -48,9 +46,8 @@ Now for the functions you wrote type signatures for, give them meaningful names.
 
 Write an input for those functions, give meaningful names to the inputs.
 
-----------
-Back on track, more basics
--------------
+
+## Back on track, more basics
 
 Ok so now we’re gonna consolidate our knowledge. Lets play a game of match the type signature to the function. Then try to give that combination a meaningful name and meaningful input names if they need it.
 ```
@@ -73,9 +70,7 @@ angry react = angry == react
 num_1 num_2 = num_1 + num_2
 ```
 
-----------
-Putting it all together
--------------
+## Putting it all together
 
 Lets spend some time just writing functions and type signatures.
 
@@ -87,9 +82,7 @@ Lets spend some time just writing functions and type signatures.
 6. Write a function that returns your name and age in a sentence.
 7. Write a function that returns the first element of a tuple.
 
-----------
-Split Definitions
--------------
+## Split Definitions
 
 A function can actually make a choice on what to return depending what the input actually is. We call this a “split definition”. Take a look at this example to see what I mean:
 ```
@@ -114,9 +107,7 @@ Write functions for the following:
 * Write a split definition for a function that returns the first element of a given list when an input is true, otherwise return the last element of that list.
 * Write a split definition for the function that returns true when a number is even and false when it is odd.
 
-----------
-Guards and Pattern Matching
--------------
+## Guards and Pattern Matching
 
 Haskell also provides cleaner methods for split definitions. Consider the following guard expression:
 ```
@@ -135,3 +126,28 @@ doubleIntHalf10 x = case x of
 	_ -> x * 2
 ```
 This is also the same function! Instead of guards or split definitions, we used pattern matching! Pattern matching is perfect for changing the output for specific cases.
+
+## Questions
+for each of the following functions do the following
+1. Write a version of it using cases if it was in guards (Or the other way around)
+2. Ask your group what are some strengths and weaknesses of each style for each function after you write it
+
+* 
+```
+LongerThan6ButShorterThan2 :: String -> String
+LongerThan6ButShorterThan2 word 
+	| (length word) > 6 = "I am longer than 6!" -- Note 'length' just returns the length of a string
+	| (length word) < 2 = "I am shorter than 2~"
+	| otherwise         = "I am a normal word"
+	
+and :: Bool -> Bool -> Bool
+and left right = case right of
+	left  -> right
+	_     -> False
+	
+maybeGravy :: Int -> Maybe String
+maybeGravy x 
+	| (compare x 10) == Eq = Just "Gravy baby!"
+	| (compare x 10) == Lt = Nothing
+	| (compare x 10) == Gt = Just "Too much gravy baby!"
+```
