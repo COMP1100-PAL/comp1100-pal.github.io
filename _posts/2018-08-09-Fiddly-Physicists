@@ -5,7 +5,7 @@ date:   2018-08-09 18:01:41 +1100
 categories: worksheets wk3 decomposition
 ---
 # Warm up: Mathematicians in Need
-The mathameticians have now migrated north, to the new maths building. But now the mathematicians live next door to the physicists, and the mathematicians have made a horrific discovery about their neighbours.
+The mathameticians have now migrated West, to the new maths building. But now the mathematicians live next door to the physicists, and the mathematicians have made a horrific discovery about their neighbours.
 When faced with the expression "x divided by zero", physicists say that it equals infinity!
 The disgusted mathematicians have come to you- the computer scientists- and begged you to write a function called "safeDiv" that gives an error when a pesky physicist tries to divide by zero.
 
