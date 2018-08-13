@@ -33,17 +33,17 @@ But it uses recursion! Can you see how that works?
 The following functions use pattern matching to implement recursion but they are incomplete! Fill in the gaps and then explain what each function does:
 
 
-	mult :: Integer -> Integer -> Integer -> Integer
+	mult :: Integer -> Integer -> Integer
 	mult m n
 		| _______ = n
 		| otherwise = n + mult (m-1) n
 
-	Indices :: Integer -> Integer -> Integer
-	BOOM m n
+	indices :: Integer -> Integer -> Integer
+	indices m n
 		| n == 1    = m
 		| otherwise = _______
 
-	sum :: [Integer] -> Integer
-	sum ls
+	summ :: [Integer] -> Integer
+	summ ls
 		| _______ = 0
-		| otherwise = (head ls) + (sum (tail ls))
+		| otherwise = (head ls) + (summ (tail ls))
