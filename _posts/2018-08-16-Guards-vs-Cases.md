@@ -21,3 +21,13 @@ Q) The following table gives scores for people sitting next to each other. Given
 | Jay		|		| 2		| 3			|
 | Tiggy		| 2		|		| -1		|
 | Edmund	| 3		| -1	|			|
+
+
+```haskell
+
+-- Use these types to help you!
+data Person = Jay | Tiggy | Edmund
+
+score :: Person -> Person -> Integer
+score ->Your Solution Here<-
+```
