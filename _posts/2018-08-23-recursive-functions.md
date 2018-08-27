@@ -55,7 +55,7 @@ So,  for example, 3! = 3 * 2 * 1 = 6. We will try to construct a factorial funct
 		| ______ = ______
 ```
 
-Using the same methodology, write a recursive function that checks if a string in a palindrome. You can use the following functions that get the first and last elements of list:
+Using the same methodology, write a recursive function that checks if a string is a palindrome. You can use the following functions that get the first and last elements of list:
 ```
 	head :: [a] -> a
 	last :: [a] -> a
