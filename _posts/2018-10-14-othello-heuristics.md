@@ -5,7 +5,7 @@ date:   2018-10-14 18:01:41 +1100
 categories: worksheets wk3 decomposition
 ---
 
- # Rules of Othello
+# Rules of Othello
  
  Each of the disks' two sides corresponds to one player; they are referred to here as light and dark after the sides of Othello pieces, but any counters with distinctive faces are suitable. The game may for example be played with a chessboard and Scrabble pieces, with one player letters and the other backs.
 
