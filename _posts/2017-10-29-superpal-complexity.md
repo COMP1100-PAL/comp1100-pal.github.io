@@ -24,7 +24,7 @@ Typically, we are usually interested in the worst case: what is the maximum numb
 
 Here is a useful visualisation for complexity:
 
-!["ALT TEXT"](https://github.com/COMP1100-PAL/comp1100-pal.github.io/blob/master/_posts/Screenshot%20from%202018-05-29%2016-30-25.png "WOWO")
+!["ALT TEXT"](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/_posts/Screenshot%20from%202018-05-29%2016-30-25.png "WOWO")
 
 Time to have a go yourself! And please don't be afraid to ask for help. That's what the whole study event is for.
 
