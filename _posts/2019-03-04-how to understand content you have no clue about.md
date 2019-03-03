@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to understand content you don't have a clue about"
-date:   2018-03-04 18:01:41 +1100
+date:   2019-03-04 18:01:41 +1100
 categories: worksheets wk1
 ---
 
