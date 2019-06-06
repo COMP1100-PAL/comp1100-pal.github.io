@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "higher order functions for study event"
+date:   2019-06-06 09:10:41 +1100
+categories: worksheets
+---
+
 **Higher order:**
 Given a list of Booleans, return true if they are all the same, false otherwise. Hint: use fold.
 ```haskell
