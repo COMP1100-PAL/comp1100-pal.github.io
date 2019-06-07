@@ -9,31 +9,25 @@ categories: superPAL week 12 exam final
 
 ### Question 1
 What is an abstract data type? Give two examples.
-### Question 2
-Here is a data type for an ant:
-```Haskell
-data Ant = Ant { antPosition :: Coord
-               , antOrientation :: Direction
-               , antTransition :: [Transition SquareTurn]}
-```
-Rewrite the data type `Ant` using the alternative syntax for record types.
 
-### Question 3
+### Question 2
 Write a recursive data type for a list. Is this data type primitive recursive?
 
-### Question 4
+### Question 3
 Write a recursive data type for a trinary tree. That is, each node in the tree has three branches.
 
-## Question 5
+## Question 4
 Consider the following data type for temperature:
 ```Haskell
-data Temperature a = Temperature {value :: a, unit :: Temperature_Unit}
+data TemperatureUnit = Kelvin | Celsius | Faren... etc..
+data Temperature a = Temperature a TemperatureUnit
 ```
 a) Check if a given temperature is in units of Farenheit.
+
 b) Write a function to convert a given temperature into Kelvin.
 (Hint: K = C + 273, F=9/5 C + 32)
 
-## Question 6
+## Question 5
 Using anonymous functions, write the following functions:
 a) Add 1 to every element of a list of integers.
 b) Filter our all odd elements of a list.
