@@ -29,8 +29,11 @@ b) Write a function to convert a given temperature into Kelvin.
 
 ## Question 5
 Using anonymous functions, write the following functions:
+
 a) Add 1 to every element of a list of integers.
+
 b) Filter our all odd elements of a list.
+
 c) Swap the order of the arguments of a function with two inputs.
 
 ## Challenge Question
