@@ -27,7 +27,7 @@ and is now free?"
 He logged onto Piazza,
 and his prayers came true,
 "PAL mentoring every day,
-Hancock West at 2!"
+Hancock West rooms!"
 >
 He attended next day,
 and what did he find?
@@ -40,16 +40,17 @@ your grades will increase,
 From P's to HD's.
 
 
-PAL mentoring provides a casual atmosphere for learning skills that will make you a whiz kid at computer science. Sessions for COMP1100 run daily at 
+PAL mentoring provides a casual atmosphere for learning skills that will make you a whiz kid at computer science. Sessions for COMP1100 run at 
 
-* Monday from 1PM in Hancock West 2.27
-* Tuesday from 4PM in Hancock West 2.27
-* Wednesday from 12PM in Hancock West 2.22
-* Thursday from 2PM in Forestry level 1 room 103
-* Friday from 1PM in Forestry level 1 room 103
+* Monday from 1PM in Hancock West 2.25
+* Tuesday from 3PM in Hancock West 2.25
 
-There will also be a dedicated 1130 PAL session on 
-* Monday at 2PM in Hancock 2.28.
+[comment]: # (* Wednesday from 12PM in Hancock West 2.22)
+* Thursday from 12PM in Hancock West 2.25
+* Friday from 12PM in Hancock West 2.25
+
+[comment]: # (There will also be a dedicated 1130 PAL session on)
+[comment]: # (* Monday at 2PM in Hancock 2.28.)
 
 PAL is where you will work in groups on activities relevant to course material, exams, and assignments.  PAL is not compulsory, but past statistics clearly show a strong correlation between grades and PAL attendance!
 Hope to see you there.
