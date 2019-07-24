@@ -44,11 +44,10 @@ PAL mentoring provides a casual atmosphere for learning skills that will make yo
 
 * Monday from 1PM in Hancock West 2.25
 * Tuesday from 3PM in Hancock West 2.25
-
-[comment]: # (* Wednesday from 12PM in Hancock West 2.22)
 * Thursday from 12PM in Hancock West 2.25
 * Friday from 12PM in Hancock West 2.25
 
+[comment]: # (* Wednesday from 12PM in Hancock West 2.22)
 [comment]: # (There will also be a dedicated 1130 PAL session on)
 [comment]: # (* Monday at 2PM in Hancock 2.28.)
 
