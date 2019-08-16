@@ -7,7 +7,7 @@ categories: worksheets wk4
 
 # You're Eating Recursion
 
-![alt text](https://scontent-ams3-1.cdninstagram.com/vp/71f0a1d912ebfa95fdaf7646ece4d165/5D19FAB4/t51.2885-15/e35/37953274_256707018262438_8711938167449583616_n.jpg?_nc_ht=scontent-ams3-1.cdninstagram.com)
+![alt text](https://i.imgur.com/xNNPN0d.jpg)
 
 ## What is Pooh Eating?!?
 Recursion might be a completely new and confusing idea. Do not worry, it takes a little while to understand but once you get it, everything will become a lot clearer. Discuss in your group what you think recursion is and give examples.
