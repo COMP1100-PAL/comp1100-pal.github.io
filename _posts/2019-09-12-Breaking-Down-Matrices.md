@@ -5,7 +5,6 @@ date:   2019-09-12 15:00:00 +1100
 categories: worksheets
 ---
 
-# COMP1100 PAL
 # Week 7
 
 ------
