@@ -62,10 +62,6 @@ Can you change your transpose function to deal with any matrix, not only square 
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 ## Solution
 Here is a solution for the challenge:
 ```haskell
