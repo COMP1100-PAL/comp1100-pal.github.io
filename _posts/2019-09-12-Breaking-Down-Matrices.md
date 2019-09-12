@@ -42,6 +42,30 @@ HINT:
 ## Extension
 Can you change your transpose function to deal with any matrix, not only square matrices. There is one method that is quite easy and simple, but you may also need to rewrite your entire function if you completed transpose in a unique way.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ## Solution
 Here is a solution for the challenge:
 ```haskell
