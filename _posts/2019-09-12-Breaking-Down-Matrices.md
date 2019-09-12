@@ -32,7 +32,10 @@ We challenge you to write a function that will transpose a square matrix:
 ```
 This is quite a task, so don't just rush into writing the function immediately. Think about the components of the problem and how they come together, otherwise you will get stuck very quickly. Also, don't think about the problem in Haskell but rather generally - don't feel afraid to draw examples and equations in the whiteboard!
 
+&nbsp;
+
 HINT:
+
 ![Hint](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/img/PAL1100-Hint.jpg)
 
 
