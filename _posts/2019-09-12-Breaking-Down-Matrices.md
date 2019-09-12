@@ -10,8 +10,6 @@ categories: worksheets
 
 ------
 
-# Breaking Down Matrices
-
 ## Transpose
 We start with some maths. A matrix is a list of lists, often represented as:
 
