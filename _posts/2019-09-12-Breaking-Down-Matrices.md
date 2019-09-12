@@ -9,7 +9,7 @@ categories: worksheets
 ------
 
 ## Transpose
-We start with some maths. A matrix is a list of lists, often represented as:
+We start with some maths! A matrix is a list of lists, often represented as:
 
 ![Matrix](../img/PAL1100-Matrix.png)
 
