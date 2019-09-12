@@ -15,7 +15,7 @@ categories: worksheets
 ## Transpose
 We start with some maths. A matrix is a list of lists, often represented as:
 
-![Matrix](img/PAL1100-Matrix.png)
+![Matrix](../img/PAL1100-Matrix.png)
 
 So we have rows, e.g ```[a,b]```, and columns, e.g ```[b,d]```. So we represent matrices in Haskell like so:
 ```haskell
@@ -27,7 +27,7 @@ There is also a special type of matices: Square Matrices. This is when there are
 
 Finally, there is a process we can do to matrices: the transpose. This 'flips' the matrix along the diagonal. For example:
 
-![Transpose](img/PAL1100-Transpose.png)
+![Transpose](../img/PAL1100-Transpose.png)
 
 ## Problem
 We challenge you to write a function that will transpose a square matrix:
@@ -37,7 +37,7 @@ We challenge you to write a function that will transpose a square matrix:
 This is quite a task, so don't just rush into writing the function immediately. Think about the components of the problem and how they come together, otherwise you will get stuck very quickly. Also, don't think about the problem in Haskell but rather generally - don't feel afraid to draw examples and equations in the whiteboard!
 
 HINT:
-![Hint](img/PAL1100-Hint.png)
+![Hint](../img/PAL1100-Hint.jpg)
 
 
 ## Extension
