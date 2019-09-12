@@ -1,7 +1,11 @@
-
+---
+layout: post
+title:  "Breaking Down Matrices"
+date:   2019-09-12 15:00:00 +1100
+categories: worksheets
+---
 
 # Week 7
-
 ------
 
 ## Transpose
