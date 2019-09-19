@@ -8,8 +8,6 @@ categories: worksheets
 # Week 8
 ------
 
-## Bottoms up!
-
 A very useful skill to have in any programming problem is the ability to break down a problem and solve it from the bottom up. As you learn more functions and data types, the kinds of problems you will be faced with become more and more complicated, which means that trying to write one big function which does everything becomes nearly impossible. In today's session, we will be writing a function which calculates the standard deviation of an arbitrary list of numbers. The formula for standard devaition is as follows:
 
 ![std_dev](https://cdn.kastatic.org/googleusercontent/N8xzWFc6eo0XBHEXZjz1SwvLSnPezvhTRF1P17kdjUG_tnJivGKkyCxbwVe4MZ0-USOxIZBohgcjdi8e7Z4Hswcqfw )
