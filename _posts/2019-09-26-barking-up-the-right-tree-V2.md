@@ -1,4 +1,12 @@
-# Barking Up the Right Tree
+---
+layout: post
+title:  "Bottom's Up"
+date:   2019-09-19 15:00:00 +1100
+categories: worksheets
+---
+
+# Week 9
+-------
 
 ## Visualising Data Types
 There are many different data types in Haskell, booleans, characters, strings and lists to name a few. Some of these types are hopefully quite intuitive:
@@ -61,5 +69,3 @@ Before we try to write these functions, let's build them up abstractly! Can they
 Once you have decent diagrams, use the drawings to outline what each function needs to do. These functions can be quite complicated, involving mutliple distinct steps, and so breaking them down is key.
 
 Finally, with a good method available to us, we can write the functions in Haskell. Remember, feel free to ask your PAL mentor if you are having any trouble!
-
-
