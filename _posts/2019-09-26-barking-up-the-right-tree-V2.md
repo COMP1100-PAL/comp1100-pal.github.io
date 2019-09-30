@@ -32,9 +32,12 @@ data BinaryTree a = Null | Node (BinaryTree a) a (BinaryTree a)
 This is the binary tree data type. There is a lot to unpack here in order to understand how the type works and then how to use it. To do so, we are going to applying our drawing method. Try draw the following instances:
 ```haskell
 1) BinaryTree Int = Node (Null) 10 Null
-2) BinaryTree Int = Node (Node (Null) 8 (Null)) 10 (Node (Null) 9 (Null))
+2) BinaryTree Int = Node (Node (Null) 8 (Null))
+                    10 (Node (Null) 9 (Null))
 3) BinaryTree Char = Node (Node (Node (Null) `a` (Null))
-`d` (Node (Null) `b` (Null))) `f` (Node (Null) `e` (Node (Null) `c` (Null)))
+                      `d` (Node (Null) `b` (Null)))
+                      `f` (Node (Null) `e` (Node (Null)
+                      `c` (Null)))
 ```
 Is there a way to draw the general type? Give it a shot and see what you come up with!
 
