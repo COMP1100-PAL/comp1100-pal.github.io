@@ -50,7 +50,7 @@ data Rose a = Rose a [Rose a]
 ```
 What do these two trees represent? When/why do we use them? Try visual these instances:
 ```haskell
-1) BSTree Int = Node (Node (4) 8 (5)) 10 (Node (6) 9 (7))
+1) BSTree Int = Node (Node (4) 5 (6)) 7 (Node (8) 9 (10))
 2) Rose Char = Rose `e` [Rose `a` [], Rose `b`
                 [Rose `c` [], Rose `d` []]]
 ```
