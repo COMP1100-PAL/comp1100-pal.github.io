@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "PAL Plays Tic-Tac-Toe"
+date:   2019-14-10 08:00:00 +1100
+categories: worksheets
+---
+
 # PAL Plays Tic-Tac-Toe
 
 ## Overview
