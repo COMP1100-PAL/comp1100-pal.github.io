@@ -15,7 +15,7 @@ Instead of immediately leaping into building a bot, let's break down the steps t
 
 ## Background
 Last week, we worked to make a greedy bot in Tic-Tac-Toe. This resulted in the following data types and functions:
-```Haskell
+```haskell
 data Board = [Move]
 data Move = (Player, (Int, Int)) -- X, Y coordinates
 data Player = X | O
@@ -68,12 +68,12 @@ If we are wishing to maximise the score for the root node, then we compare the v
 The parent node now contains the value of the best result of its children. This process is then repeated for all nodes, alternating beetween maximising and minimising at each level, until the entire tree has been completed. We alternate between maximising and minimising to represent the alternative turns between you and your opponent: your opponent is going to choose your worst game state!
 
 1) Using a diagram, perform a Minimax algorithm on these balanced binary search trees with the following terminal node pairs:
-```
+```haskell
 (-2, 4) (15, 0) (3, 11) (-7,-9) 
 ```
 2) Create a Minimax function with a lookahead value of 1 (look one turn into the future).
 3) Write a general Minimax function that works for a certain depth:
-```
+```haskell
 minimax :: RoseTree a -> Int -> a
 minimax tree depth = # RETURN BEST LEAF NODE #
 ```
