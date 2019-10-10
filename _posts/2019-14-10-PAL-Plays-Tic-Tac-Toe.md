@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PAL Plays Tic-Tac-Toe"
-date:   2019-14-10 08:00:00 +1100
+date:   2019-10-10 08:00:00 +1100
 categories: worksheets
 ---
 
