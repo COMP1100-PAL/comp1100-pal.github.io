@@ -5,8 +5,6 @@ date:   2019-10-10 08:00:00 +1100
 categories: worksheets
 ---
 
-# PAL Plays Tic-Tac-Toe
-
 ## Overview
 Over the past 10 weeks, you have learnt a lot of different concepts in computer science and how to implement these in Haskell. Putting all these different concepts together, we can make a bot that plays Tic-Tac-Toe!
 
