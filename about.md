@@ -46,9 +46,7 @@ PAL mentoring provides a casual atmosphere for learning skills that will make yo
 * Tuesday 12 to 1
 * Wednesday 12 to 1
 * Thursday 1 to 2
-
-[comment]: # (There will also be a dedicated 1130 PAL session on)
-[comment]: # (* Friday 4 - 5.)
+* Friday 4 to 5 (COMP1130)
 
 PAL is where you will work in groups on activities relevant to course material, exams, and assignments.  PAL is not compulsory, but past statistics clearly show a strong correlation between grades and PAL attendance!
 Hope to see you there.
