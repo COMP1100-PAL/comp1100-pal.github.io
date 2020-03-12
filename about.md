@@ -45,7 +45,7 @@ PAL mentoring provides a casual atmosphere for learning skills that will make yo
 * Monday 12 to 1
 * Tuesday 12 to 1
 * Wednesday 12 to 1
-* Thursday 1 to 2
+* Thursday 2 to 3
 * Friday 4 to 5 (COMP1130)
 
 PAL is where you will work in groups on activities relevant to course material, exams, and assignments.  PAL is not compulsory, but past statistics clearly show a strong correlation between grades and PAL attendance!
