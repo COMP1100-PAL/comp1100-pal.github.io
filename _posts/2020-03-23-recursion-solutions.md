@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Recursion"
+title:  "Recursion Solutions"
 date:   2020-03-16 08:00:00 +1100
 categories: worksheets
 ---
