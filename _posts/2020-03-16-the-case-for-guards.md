@@ -45,7 +45,7 @@ hasItRained :: Int -> Bool
 hasItRained amountOfWaterInBucket
   | amountOfWaterInBucket == 0  = False
   | amountOfWaterInBucket > 0   = True
-  | otherwise                   = Error "amountOfWater has an unexpected value"
+  | otherwise                   = error "amountOfWater has an unexpected value"
 ```
 Here ```otherwise``` basically just means ```True```. This means our last option will catch all possible things, such as measuring a negative amount of water, meaning that our function will know what to do regardless.
 
@@ -53,11 +53,11 @@ What would happen if we rearrange the function a bit:
 ```haskell
 hasItRained :: Int -> Bool
 hasItRained amountOfWaterInBucket
-  | otherwise                   = Error "amountOfWater has an unexpected value"
+  | otherwise                   = error "amountOfWater has an unexpected value"
   | amountOfWaterInBucket == 0  = False
   | amountOfWaterInBucket > 0   = True
 ```
-We might as well check for odd values first, right? It turns out, that this would ruin our function. Haskell checks each option in the order it is listed. So this version of the function would first check if ```otherwise``` returns ```True```, always be happy with the result and so return the ```Error "amountOfWater has an unexpected value"```. So it is important to remember that the options in Guards are checked in order.
+We might as well check for odd values first, right? It turns out, that this would ruin our function. Haskell checks each option in the order it is listed. So this version of the function would first check if ```otherwise``` returns ```True```, always be happy with the result and so return the ```error "amountOfWater has an unexpected value"```. So it is important to remember that the options in Guards are checked in order.
 
 ## Guard Examples
 
@@ -84,7 +84,7 @@ generation age
 ```haskell
 apeIndex :: Int -> String
 apeIndex armSpan height
-  | armSpan / height < 0  = Error "Unexpected Negative Values"
+  | armSpan / height < 0  = error "Unexpected Negative Values"
   | armSpan / height < 1  = "Your legs are long"
   | armSpan / height == 1 = "You arms and legs are the same"
   | otherwise             = "Your arms are long"
@@ -147,7 +147,7 @@ translateGrade grade = case grade of
   CR  -> "Credit"
   D   -> "Distinction"
   HD  -> "High Distinction"
-  _   -> Error "Unexpected Value"
+  _   -> error "Unexpected Value"
 ```
 The wildcard is often useful when only some return values for the expression are special. You can pattern-match
 
