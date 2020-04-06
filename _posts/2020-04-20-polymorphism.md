@@ -14,7 +14,7 @@ Recently, we were also introduced to _**Polmorphic**_ types. To define a polymor
 
 ## Question 1: Identifying Recursion
 
-We have a list of types and a list of instances:
+We have a list of types and a list of instances. For each type, say whether it is polymorphic and if it is not, link it its instance.
 
 Types:
 ```haskell
@@ -25,9 +25,6 @@ Instances:
 ```haskell
 1    "True"    ("1", '1')    1.0    '1'    True    Just 1
 ```
-
-For each type, say whether it is polymorphic and if it is not, link it its instance.
-
 
 ## Why We Need Polymorphism
 
@@ -124,7 +121,7 @@ generateSuccessor x i = helper [x] i
 ```
 
 
-## Question 3: Applying Polymorphic Functions
+## Question 2: Applying Polymorphic Functions
 
 We will now take a look at some examples of useful polymorphic functions. For each of the functions, see if you can work out what they do:
 
@@ -191,7 +188,7 @@ polymorph0 "Turtle" = "T"
 Can you work out the remaining 4?
 
 
-## Question 4: Turning Functions Polymorphic
+## Question 3: Turning Functions Polymorphic
 
 We have seen many haskell functions so far, but until now none have been polymorphic. Let's fix this situation! Take these list functions you and make them polymorphic:
 
@@ -217,7 +214,7 @@ elementRepetition i s
 ```
 
 
-## Question 5: Your Own Polymorphic Functions
+## Question 4: Your Own Polymorphic Functions
 
 Now it is time for you to write your own polymorphic functions! Try write a function ```isPallindrome``` that detects if a list if a pallindrome - the same forwards and backwards.
 
