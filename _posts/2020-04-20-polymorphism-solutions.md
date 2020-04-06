@@ -102,7 +102,7 @@ polymorphism4 2 3 = 5
 ```
 
 
-## Question 4: Turning Functions Polymorphic
+## Question 3: Turning Functions Polymorphic
 
 We have seen many haskell functions so far, but until now none have been polymorphic. Let's fix this situation! Take these list functions you and make them polymorphic:
 
@@ -130,7 +130,7 @@ elementRepetition i s
 ```
 
 
-## Question 5: Your Own Polymorphic Functions
+## Question 4: Your Own Polymorphic Functions
 
 Now it is time for you to write your own polymorphic functions! Try write a function ```isPallindrome``` that detects if a list if a pallindrome - the same forwards and backwards.
 
