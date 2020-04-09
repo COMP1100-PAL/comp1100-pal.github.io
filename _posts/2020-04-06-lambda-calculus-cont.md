@@ -49,7 +49,7 @@ We can then perform a second beta reduction by replacing every instance of ```z`
 ## Question: Easy Beta
 
 1. ```(λx.xyzx) w```
-2. ```(λx.xxx) yz```
+2. ```(λx.xxx) (yz)```
 3. ```(λy.xyz) ```
 4. ```(λx.x) (λz.zw) y```
 5. ```(λx.x u) (λz.wzwz) yv```

@@ -11,9 +11,9 @@ categories: worksheets
 1. ```(λx.xyzx) w```
 
     __Answer__: ```(λx.xyzx) w``` →<sub>β</sub> ```wyzw```
-2. ```(λx.xxx) yz```
+2. ```(λx.xxx) (yz)```
 
-    __Answer__: ```(λx.xxx) yz``` →<sub>β</sub> ```yzyzyz```
+    __Answer__: ```(λx.xxx) (yz)``` →<sub>β</sub> ```yzyzyz```
 3. ```(λy.xyz)```
 
     __Answer__: ```(λy.xyz)``` cannot be beta reduced as there is no application.
