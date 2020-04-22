@@ -232,7 +232,7 @@ In other words: to calculate the result of the fold functions, the input functio
 
 The difference between ```foldl``` and ```foldr``` is shown in this diagram:
 
-![Foldl vs Foldr](2020-04-20-foldl-vs-foldr.png "Foldl vs Foldr")
+![Foldl vs Foldr](/2020-04-20-foldl-vs-foldr.png "Foldl vs Foldr")
 
 In the example below, the input function is ```+```, the accumulator is ````0````. So the first step is to add ```0``` and ```1```. This result will then become the new accumulator for the next step of the function. This new accumulator is then combined with the second element, and so on.
 
