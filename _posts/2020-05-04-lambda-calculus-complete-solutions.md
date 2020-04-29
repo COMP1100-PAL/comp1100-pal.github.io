@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lambda Calculus Completed"
+title:  "Lambda Calculus Completed Solutions"
 date:   2020-05-04 09:00:00 +1100
 categories: worksheets
 ---
