@@ -156,7 +156,7 @@ For all the following questions, the answer sheet has solutions with and without
 
 3) Let's produce the triangular numbers:
 
-![Triangular Numbers](2020-05-04-triangular-numbers.png)
+![Triangular Numbers](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/_posts/2020-05-05-triangular-numbers.png)
 
 The equation for the ```n```th triangular number is ```T(n) = n(n+1)/2```. However, we challenge you to create a function that generates the triangular numbers from ```1``` to ```n```. For example:
 
