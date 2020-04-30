@@ -17,6 +17,7 @@ For all the following questions, the answers have been provided with and without
 1) We have the list ```[0,2..]```. We want the lists ```[0,-2,-4,-6,-8,-10]```. How can we do this?
 
 > __Answer__:
+
 ```haskell
 standardOutput = map (*(-1)) (filter (<11) [0,2..])
 
@@ -26,6 +27,7 @@ listComprehensionOutput = [ -x | x <- [0,2..], x < 11 ]
 2) We have the function ```isVowel :: Char -> Bool``` and ```toUpperCase```. Given ```alphabet = take 26 ['a'..] = ['a','b','c',...,'x','y','z']```, produce the list of upper case consonants (not vowels).
 
 > __Answer__:
+
 ```haskell
 standardOutput = filter (isNotVowel) (map toUpper alphabet)
   where
@@ -47,6 +49,7 @@ func 4 = [1,3,6,10]
 ```
 
 > __Answer__:
+
 ```haskell
 triangularNumber n = n*(n+1)/2
 
@@ -63,7 +66,8 @@ Note: these questions can be quite difficult. We suggest you give them a good at
 
 1) a. Generate a list of all the squares on a chess board. (Board notation: the rows are identified by the letters `A` to `H`, and the columns by the numbers 1 to 8. With this each cell is uniquely identified as 'A1', 'A2' and so on...)
 
-> Answer:
+> __Answer__:
+
 ```haskell
 standardOutput = map (generate ['A'..'H']) [1..8]
   where
@@ -80,6 +84,7 @@ listComprehensionOutput = [ (x,y) | y <- ['A'..'H'],x<- [1..8] ]
 2) Write a function that takes two lists and outputs a list of common elements in two lists, i.e. the intersection of two sets. For example: ```intersect [1,2,3] [1,4,5] = [1]```.
 
 > __Answer__:
+
 ```haskell
 standardIntersect xs ys = filter ( (flip elem) xs) ys
 
@@ -89,6 +94,7 @@ listComprehensionIntersect xs ys = [x | x <- xs, elem x ys]
 3) Let's move on to a slightly harder question. Try to generate a list of all the Pythagorean triples, i.e. triples of three numbers, ```a,b,c```, that satisfy the equation ```a^2 + b^2 == c^2```. Assume that the side lengths are less than ```15```.
 
 > __Answer__:
+
 ```haskell
 listComprehensionOutput = [(a,b,c)| a <- [1..15], b <- [1..15] , c <- [1..15] , a^2 + b^2 == c^2, a <= b ]
 
@@ -129,6 +135,7 @@ pythagoreanTriples n = filter pythagoreanTest (generateCombined n)
 4) Write a function that generates the list of divisors:
 
 > __Answer__:
+
 ```haskell
 standardOutput n = filter (helper) [1..n]
   where
