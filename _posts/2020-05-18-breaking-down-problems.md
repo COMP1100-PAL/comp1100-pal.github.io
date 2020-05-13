@@ -1,6 +1,6 @@
 ---
 title: "Breaking Down Problems"
-date: "2020-05-18 8:00:00 +1100"
+date: "2020-05-18 9:00:00 +1100"
 layout: post
 output: pdf_document
 categories: worksheets
@@ -188,7 +188,7 @@ graphing3D function rangex rangey rangez = applyFunctionTo3DGrid function (gener
 
 So we have solved the problem and implemented a graphing function! Although it may have seen difficult at first, by breaking down the problem, we have simplified it and made it possible to understand and solve.
 
-Note: All code for the graphing functions can be found [here](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/_posts/2020-05-18-Graph3D.hs).
+Note: All code for the graphing functions can be found [here](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/src_hs/2020-05-18-Graph3D.hs).
 
 ## Questions: Breaking Down with Trees
 
