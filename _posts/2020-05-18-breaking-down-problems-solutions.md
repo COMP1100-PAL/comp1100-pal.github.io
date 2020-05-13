@@ -26,7 +26,7 @@ There are multiple parts to this problem:
 
 Each part is separate: the outputs from one part will be used as inputs for another, but that is the only connection - no functions will be reused. So we will consider each of these parts in turn.
 
-Note: all code for our solution can be found [here](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/src_hs/2020-05-18-SequenceProbabilities.hs). Follow the explanation below and run the functions to guarantee that they work.
+Note: all code for our solution can be found [here](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/src_hs/2020-05-18-SequenceProbabilities.hs). Follow the explanation below, run some examples and check that they do indeed work and do what we claim!
 
 ### Generating Sequences
 
