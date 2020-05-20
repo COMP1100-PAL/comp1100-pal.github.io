@@ -23,7 +23,7 @@ take 10 [1,3..] = [1,3,5,7,9,11,13,15,17,19]
 But now we know about higher order functions, so we can make it more general with the following approach:
 
 ```haskell
-oddNumGenerate :: (Num a) => a -> a 
+oddNumGenerate :: (Num a) => a -> a
 oddNumGenerate x = 2*x - 1
 
 map oddNumGenerate [1..10] = [1,3,5,7,9,11,13,15,17,19]
@@ -64,32 +64,21 @@ where ```f :: a -> b``` is the output function we apply, ```xs :: [a]``` is the 
 
 (This concept is somewhat similar to that of 'set comprehensions' used in mathematics).
 
-Let's look at another example:
-
 ```haskell
-[2*x - 1 | x <- [1..], x <= 10]
+[2*x - 1 | x <- [1..30], (2*x - 1) < 20]
 ```
-
-This gives the same output as before: ```[1,3,5,7,9,11,13,15,17,19]```. This time however, instead of getting input elements from the finite list ```[1..10]```, we get them from the infinite list ```[1..]``` and then filter out values above 10, ```x <= 10```. To be clear:
-- ```x <- [1..]``` says how we sample the input elements ```x```
-- ```x <= 10``` says how we filter the input elements
-- ```2*x - 1``` says what the output elements are given the input elements.
-
-Let's look at yet another example:
-
-```haskell
-[2*x - 1 | x <- [1..], (2*x - 1) < 20]
-```
-
+ 
 Again the same result! Here we have changed the predicate from ```x <= 10``` to ```(2*x - 1) < 20```. This shows how the predicates can be quite complicated: they all must take ```x``` as an input and output a `bool`, but otherwise they can be anything!
+ 
+Note that here we need to mention the upper limit of the sampling list: that is we can't code the function as ```[2*x - 1 | x <- [1..], (2*x - 1) < 20]```. This is because haskell would iterate through an infinite list, always checking if ```(2*x-1)``` is greater than 20. Thus, the code wouldn't terminate and it would generate an incomplete list, ``` [1,3,5,7,9,11,13,15,17,19```, and then hang.
 
 Finally an example without the same output:
 
-```haskell 
-[2*x-1| x <- [1..10] , x /= 2, x /= 7] 
+```haskell
+[2*x-1| x <- [1..10] , x /= 2, x /= 7]
 ```
 
-The output of this would be: ```[1,5,7,9,11,15,17,19]```. This shows more predicate examples: we can omit a particular input values from the list! 
+The output of this would be: ```[1,5,7,9,11,15,17,19]```. This shows more predicate examples: we can omit a particular input values from the list!
 
 So what changed here?? Haskell generated ```(2x-1)```  for all the integer values between ```1``` and ```10``` excluding the instances where ```x``` is equal to ```2``` and ```x``` is equal to ```7```, as we specified in the predicates ```x /= 2```  and ```x /= 7```.
 
@@ -156,7 +145,7 @@ For all the following questions, the answer sheet has solutions with and without
 
 3) Let's produce the triangular numbers:
 
-![Triangular Numbers](https://raw.githubusercontent.com/COMP1100-PAL/comp1100-pal.github.io/master/_posts/2020-05-05-triangular-numbers.png)
+![Triangular Numbers](2020-05-04-triangular-numbers.png)
 
 The equation for the ```n```th triangular number is ```T(n) = n(n+1)/2```. However, we challenge you to create a function that generates the triangular numbers from ```1``` to ```n```. For example:
 
