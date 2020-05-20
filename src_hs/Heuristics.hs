@@ -1,4 +1,4 @@
-module Heuristics_Solutions where
+module Heuristics where
 
 ----------------------------------------------
 -- Setup Data Types
