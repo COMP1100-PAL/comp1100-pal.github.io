@@ -9,7 +9,18 @@ categories: worksheets
 
 ## What is a Heuristic?
 
-Coming Soon.
+Heuristics are functions take a game state as an input and give a numerical output. The output should tell you how good or bad that game state is for each player: it is a way of evaluating and assigning a value to potential game states that you have generated.
+
+So a heuristic would have the type:
+
+```haskell
+heuristic :: GameState -> Player -> Double
+```
+
+It is basically just a score of the current game state!
+
+Let's look at an example: chess. A simple heuristic would count the number of pieces that each player has and return the difference. This probably won't be a very effective AI. Why? Because it doesn't capture all the information about the state of the game. So, for pretty much all games, you will need more than one kind of evaluation to accurately determine which player is winning. This will allow you to get the entire game state information, evaluate it and let your AI make the most effective decisions. So, for our 'number of pieces' heuristic, it is a good start but will need to be combined with other board metrics, such as positions of pieces, to get a better idea of the current state. By using what is called a weighted sum, it is possible to combine multiple different evaluation heuristics into one output number, the weights for which are up to you to choose. The weights of each sub-heuristic represents how important it is relative to the other heuristics in determining which player is winning.
+
 
 ## Tic Tac Toe
 
